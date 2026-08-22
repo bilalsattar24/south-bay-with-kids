@@ -1,52 +1,46 @@
 "use client";
 
-import { FormEvent, useState } from "react";
+import Script from "next/script";
+import { useLayoutEffect, useRef } from "react";
+
+const BEEHIIV_FORM_ID = "79e8c1ec-daf4-4a78-918f-c5aa238e2422";
+const BEEHIIV_LOADER_SRC =
+  "https://subscribe-forms.beehiiv.com/v3/loader.js";
+const BEEHIIV_SUBSCRIBE_URL =
+  "https://south-bay-with-kids.beehiiv.com/subscribe";
 
 export function SignupForm() {
-  const [email, setEmail] = useState("");
-  const [submitted, setSubmitted] = useState(false);
+  const hostRef = useRef<HTMLDivElement>(null);
 
-  function handleSubmit(event: FormEvent<HTMLFormElement>) {
-    event.preventDefault();
-    if (!email.trim()) return;
-    setSubmitted(true);
-  }
+  useLayoutEffect(() => {
+    const host = hostRef.current;
+    if (!host) return;
 
-  if (submitted) {
-    return (
-      <p
-        role="status"
-        className="rounded-2xl border border-line bg-paper-deep px-5 py-4 text-ink"
-      >
-        You&apos;re on the list — we&apos;ll hook this to the Friday letter soon.
-      </p>
-    );
-  }
+    // Beehiiv inserts the iframe next to this tag. next/script appends to
+    // document.body, so the form-id script has to live in the homepage slot.
+    const script = document.createElement("script");
+    script.src = BEEHIIV_LOADER_SRC;
+    script.async = true;
+    script.setAttribute("data-beehiiv-form", BEEHIIV_FORM_ID);
+    host.appendChild(script);
+
+    return () => {
+      host.replaceChildren();
+    };
+  }, []);
 
   return (
-    <form onSubmit={handleSubmit} className="flex flex-col gap-3 sm:flex-row">
-      <div className="min-w-0 flex-1">
-        <label htmlFor="email" className="sr-only">
-          Email address
-        </label>
-        <input
-          id="email"
-          name="email"
-          type="email"
-          autoComplete="email"
-          required
-          value={email}
-          onChange={(event) => setEmail(event.target.value)}
-          placeholder="you@example.com"
-          className="h-12 w-full rounded-xl border border-line bg-white px-4 text-base text-ink placeholder:text-ink-soft/70 focus:border-clay focus:outline-none focus:ring-2 focus:ring-clay/30"
-        />
-      </div>
-      <button
-        type="submit"
-        className="inline-flex h-12 shrink-0 items-center justify-center rounded-xl bg-clay px-5 text-base font-medium text-white hover:bg-clay-deep focus:outline-none focus:ring-2 focus:ring-clay/40 focus:ring-offset-2 focus:ring-offset-paper"
-      >
-        Get the Friday letter
-      </button>
-    </form>
+    <div>
+      <div ref={hostRef} className="min-h-14" />
+      <Script src={BEEHIIV_LOADER_SRC} strategy="afterInteractive" />
+      <noscript>
+        <a
+          href={BEEHIIV_SUBSCRIBE_URL}
+          className="inline-flex h-12 items-center justify-center rounded-xl bg-clay px-5 text-base font-medium text-white hover:bg-clay-deep focus:outline-none focus:ring-2 focus:ring-clay/40 focus:ring-offset-2 focus:ring-offset-paper"
+        >
+          Get the Friday letter
+        </a>
+      </noscript>
+    </div>
   );
 }
