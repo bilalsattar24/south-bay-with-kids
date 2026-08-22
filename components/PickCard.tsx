@@ -1,4 +1,5 @@
 import type { ReactNode } from "react";
+import { OfficialEventLink } from "@/components/OfficialEventLink";
 import { SECTION_LABELS, type EventPick } from "@/lib/issues";
 
 function formatEstimate(pick: EventPick) {
@@ -40,16 +41,22 @@ export function PickCard({ pick }: { pick: EventPick }) {
         {SECTION_LABELS[pick.section]}
       </p>
       <h3 className="mt-2 font-display text-2xl tracking-tight text-ink">
-        <a
+        <OfficialEventLink
           href={pick.url}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="hover:text-clay"
+          className="underline decoration-clay/70 underline-offset-[0.18em] hover:text-clay"
         >
           {pick.name}
-        </a>
+        </OfficialEventLink>
       </h3>
-      <p className="mt-1 text-sm text-ink-soft">Official site</p>
+      <p className="mt-1">
+        <OfficialEventLink
+          href={pick.url}
+          aria-label={`Event page for ${pick.name}`}
+          className="inline-flex min-h-11 items-center text-sm font-medium text-clay hover:text-clay-deep"
+        >
+          Event page →
+        </OfficialEventLink>
+      </p>
 
       <dl className="mt-5 space-y-4">
         {pick.when ? <Row label="When">{pick.when}</Row> : null}
