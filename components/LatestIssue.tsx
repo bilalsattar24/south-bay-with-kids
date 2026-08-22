@@ -1,8 +1,8 @@
 import Link from "next/link";
-import { getIssues } from "@/lib/issues";
+import { getLatestIssue } from "@/lib/issues";
 
 export function LatestIssue() {
-  const [latest] = getIssues();
+  const latest = getLatestIssue();
 
   return (
     <section className="mx-auto max-w-2xl px-5 py-14 sm:px-6 sm:py-16">
@@ -21,7 +21,20 @@ export function LatestIssue() {
       {latest ? (
         <article className="mt-6 rounded-2xl border border-line bg-white/60 px-5 py-6">
           <p className="text-sm text-ink-soft">{latest.dateLabel}</p>
-          <h3 className="mt-1 font-display text-2xl text-ink">{latest.title}</h3>
+          <h3 className="mt-1 font-display text-2xl text-ink">
+            <Link href={latest.href} className="hover:text-clay">
+              {latest.title}
+            </Link>
+          </h3>
+          <p className="mt-3 leading-relaxed text-ink-soft">{latest.intro}</p>
+          <p className="mt-4">
+            <Link
+              href={latest.href}
+              className="inline-flex min-h-11 items-center text-sm font-medium text-clay hover:text-clay-deep"
+            >
+              Read the issue
+            </Link>
+          </p>
         </article>
       ) : (
         <div className="mt-6 rounded-2xl border border-dashed border-line px-5 py-8">

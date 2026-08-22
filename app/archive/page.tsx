@@ -17,7 +17,9 @@ export default function ArchivePage() {
         Past Fridays
       </h1>
       <p className="mt-4 text-lg leading-relaxed text-ink-soft">
-        Issues will show up here once the first letter goes out.
+        {issues.length === 0
+          ? "Issues will show up here once the first letter goes out."
+          : "Newest first. Each issue is the full letter with event cards."}
       </p>
 
       {issues.length === 0 ? (
@@ -34,13 +36,9 @@ export default function ArchivePage() {
             <li key={issue.slug} className="py-5">
               <p className="text-sm text-ink-soft">{issue.dateLabel}</p>
               <p className="mt-1 font-display text-xl text-ink">
-                {issue.href ? (
-                  <Link href={issue.href} className="hover:text-clay">
-                    {issue.title}
-                  </Link>
-                ) : (
-                  issue.title
-                )}
+                <Link href={issue.href} className="hover:text-clay">
+                  {issue.title}
+                </Link>
               </p>
             </li>
           ))}

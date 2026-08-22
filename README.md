@@ -15,4 +15,4 @@ Open http://localhost:3000
 
 Import this folder as a new Vercel project. Next.js is detected automatically.
 
-Issues later go in content/issues/ as yyyy-mm-dd-slug.md.
+Issues live in content/issues/ as yyyy-mm-dd-slug.json. The homepage, /archive, and /issues/[slug] read that folder. Markdown files there (including the README) are not issues.
