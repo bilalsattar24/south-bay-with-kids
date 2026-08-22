@@ -1,15 +1,21 @@
 # Issues
 
-Add Friday letters here as Markdown (MDX later is fine).
+Friday letters live here as JSON. The homepage, `/archive`, and `/issues/[slug]` read this folder. Markdown files (including this README) are not issues.
 
 Filename:
 
-yyyy-mm-dd-slug.md
+```
+yyyy-mm-dd-slug.json
+```
 
-Example: 2026-08-28-first-friday.md
+Example: `2026-08-22-last-rpv-concert-sunday-book-festival.json`
 
-Optional frontmatter:
+Required fields: `date`, `title`, `intro`, `picks`.
 
-title: First Friday
+Each pick needs `name`, `url` (official page only), `section`, and `family_of_4_estimate` (`number` or `null`). Optional rows — `when`, `city`, `address`, `cost_math`, `cost_kind`, `parking`, `food`, `why`, `age_gate` — are omitted on the public page when blank.
 
-If you skip frontmatter, the first heading or the slug becomes the title. The homepage and /archive read this folder; if it is empty, they still render.
+`section` is one of: `this-weekend`, `coming-up`, `free-this-week`, `watch`.
+
+`cost_kind` is one of: `free`, `required`, `suggested-donation`.
+
+`family_of_4_estimate` is required fees only (entry + parking + required fees for 2 adults + 2 kids). Never invent prices. Use `null` when parking or another required piece is unknown. “Free entry, parking unknown” is a valid `cost_math`.
