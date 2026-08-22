@@ -1,8 +1,11 @@
 import Link from "next/link";
+import { OfficialEventLink } from "@/components/OfficialEventLink";
 import { getLatestIssue } from "@/lib/issues";
 
 export function LatestIssue() {
   const latest = getLatestIssue();
+  const weekendPicks =
+    latest?.picks.filter((pick) => pick.section === "this-weekend") ?? [];
 
   return (
     <section className="mx-auto max-w-2xl px-5 py-14 sm:px-6 sm:py-16">
@@ -27,6 +30,20 @@ export function LatestIssue() {
             </Link>
           </h3>
           <p className="mt-3 leading-relaxed text-ink-soft">{latest.intro}</p>
+          {weekendPicks.length > 0 ? (
+            <ul className="mt-4 space-y-1">
+              {weekendPicks.map((pick) => (
+                <li key={pick.url}>
+                  <OfficialEventLink
+                    href={pick.url}
+                    className="text-clay underline decoration-clay/50 underline-offset-2 hover:text-clay-deep"
+                  >
+                    {pick.name}
+                  </OfficialEventLink>
+                </li>
+              ))}
+            </ul>
+          ) : null}
           <p className="mt-4">
             <Link
               href={latest.href}
