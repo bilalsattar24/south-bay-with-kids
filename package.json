@@ -6,7 +6,10 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "test": "vitest run",
+    "events:backfill": "tsx scripts/backfill-events.ts",
+    "typecheck": "tsc --noEmit"
   },
   "dependencies": {
     "next": "^16.3.2",
@@ -21,6 +24,8 @@
     "eslint": "^9.39.5",
     "eslint-config-next": "^16.3.2",
     "tailwindcss": "^4.3.3",
-    "typescript": "^6.0.3"
+    "tsx": "^4.23.15",
+    "typescript": "^6.0.3",
+    "vitest": "^5.0.3"
   }
 }

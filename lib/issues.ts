@@ -26,6 +26,28 @@ export type EventPick = {
   food?: string;
   why?: string;
   age_gate?: string;
+} & EventApiFields;
+
+/**
+ * Optional structured fields read by the Events API (`/api/v1/events`).
+ * `undefined` (key absent) means "derive from the free-text fields";
+ * an explicit `null` means "known to be unknown — do not derive".
+ */
+export type EventApiFields = {
+  id?: string;
+  starts_at?: string | null;
+  ends_at?: string | null;
+  time_tbd?: boolean;
+  venue_name?: string | null;
+  street_address?: string | null;
+  is_free?: boolean;
+  price_text?: string | null;
+  image_url?: string | null;
+  description?: string;
+  category?: string;
+  status?: string;
+  verified?: boolean;
+  last_checked_at?: string;
 };
 
 export type Issue = {
@@ -36,6 +58,7 @@ export type Issue = {
   intro: string;
   href: string;
   picks: EventPick[];
+  last_checked_at?: string;
 };
 
 const ISSUES_DIR = path.join(process.cwd(), "content", "issues");
@@ -60,7 +83,36 @@ function asTrimmedString(value: unknown): string | undefined {
   return trimmed.length > 0 ? trimmed : undefined;
 }
 
-function parsePick(raw: unknown): EventPick | null {
+function asNullableString(value: unknown): string | null | undefined {
+  if (value === null) return null;
+  if (typeof value !== "string") return undefined;
+  return asTrimmedString(value) ?? null;
+}
+
+function asBoolean(value: unknown): boolean | undefined {
+  return typeof value === "boolean" ? value : undefined;
+}
+
+function parseApiFields(pick: Record<string, unknown>): EventApiFields {
+  return {
+    id: asTrimmedString(pick.id),
+    starts_at: asNullableString(pick.starts_at),
+    ends_at: asNullableString(pick.ends_at),
+    time_tbd: asBoolean(pick.time_tbd),
+    venue_name: asNullableString(pick.venue_name),
+    street_address: asNullableString(pick.street_address),
+    is_free: asBoolean(pick.is_free),
+    price_text: asNullableString(pick.price_text),
+    image_url: asNullableString(pick.image_url),
+    description: asTrimmedString(pick.description),
+    category: asTrimmedString(pick.category),
+    status: asTrimmedString(pick.status),
+    verified: asBoolean(pick.verified),
+    last_checked_at: asTrimmedString(pick.last_checked_at),
+  };
+}
+
+export function parsePick(raw: unknown): EventPick | null {
   if (!raw || typeof raw !== "object") return null;
   const pick = raw as Record<string, unknown>;
   const name = asTrimmedString(pick.name);
@@ -88,12 +140,12 @@ function parsePick(raw: unknown): EventPick | null {
     food: asTrimmedString(pick.food),
     why: asTrimmedString(pick.why),
     age_gate: asTrimmedString(pick.age_gate),
+    ...parseApiFields(pick),
   };
 }
 
 function parseIssueFile(file: string): Issue | null {
-  const match = file.match(ISSUE_FILE);
-  if (!match) return null;
+  if (!ISSUE_FILE.test(file)) return null;
 
   const filePath = path.join(ISSUES_DIR, file);
   let raw: unknown;
@@ -102,7 +154,13 @@ function parseIssueFile(file: string): Issue | null {
   } catch {
     return null;
   }
-  if (!raw || typeof raw !== "object") return null;
+  return parseIssueData(raw, file);
+}
+
+/** Parses already-loaded issue JSON; `file` is the `yyyy-mm-dd-slug.json` name. */
+export function parseIssueData(raw: unknown, file: string): Issue | null {
+  const match = file.match(ISSUE_FILE);
+  if (!match || !raw || typeof raw !== "object") return null;
 
   const data = raw as Record<string, unknown>;
   const date = asTrimmedString(data.date) ?? match[1];
@@ -123,6 +181,7 @@ function parseIssueFile(file: string): Issue | null {
     intro,
     href: `/issues/${slug}`,
     picks,
+    last_checked_at: asTrimmedString(data.last_checked_at),
   };
 }
 
