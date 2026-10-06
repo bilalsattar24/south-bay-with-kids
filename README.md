@@ -87,52 +87,52 @@ X-RateLimit-Reset: 1
 
 ```json
 {
-  "last_updated": "2026-10-02T05:04:36-07:00",
+  "last_updated": "2026-10-05T15:03:43-07:00",
   "from": "2026-10-05",
   "to": "2026-10-11",
   "events": [
     {
-      "id": "evt_01b475cb43ccc047",
-      "title": "Turtle and Tortoise Day",
-      "starts_at": "2026-10-10T10:00:00-07:00",
-      "ends_at": "2026-10-10T16:00:00-07:00",
-      "time_tbd": false,
-      "venue_name": "Madrona Marsh Nature Center",
-      "address": "3201 Plaza del Amo",
-      "city": "Torrance",
-      "is_free": true,
-      "price_text": null,
-      "age_range": null,
-      "description": "Very popular Madrona day — live turtles and tortoises for all ages.",
-      "category": "this_weekend",
-      "source_url": "https://www.friendsofmadronamarsh.com/events/turtle-and-tortoise-day/",
-      "image_url": null,
-      "status": "scheduled",
-      "verified": true,
-      "last_checked_at": "2026-10-02T05:04:36-07:00"
-    },
-    {
-      "id": "evt_0108d6ebec2668a7",
-      "title": "Festa Italiana Los Angeles",
-      "starts_at": "2026-10-10T11:00:00-07:00",
-      "ends_at": "2026-10-10T22:00:00-07:00",
-      "time_tbd": false,
-      "venue_name": "6th St between S. Palos Verdes & S. Centre",
-      "address": "222 W 6th St",
+      "id": "evt_f2b12c92f06dfb3a",
+      "title": "Cephalopod Awareness Week (drop-in)",
+      "starts_at": "2026-10-06T00:00:00-07:00",
+      "ends_at": "2026-10-10T17:00:00-07:00",
+      "time_tbd": true,
+      "venue_name": "Cabrillo Marine Aquarium Exhibit Hall",
+      "address": "3720 Stephen M. White Drive",
       "city": "San Pedro",
       "is_free": true,
-      "price_text": null,
+      "price_text": "Suggested donation $10 adult, $5 child (not required)",
       "age_range": null,
-      "description": "Big free Italian street festa with kids activities. Strong October Saturday in San Pedro.",
-      "category": "this_weekend",
-      "source_url": "https://lilaa.org/festa-italiana/",
+      "description": "Interactive cephalopod learning during regular visit hours — last days this week.",
+      "category": "free_this_week",
+      "source_url": "https://cma.recreation.parks.lacity.gov/events/public-programs",
       "image_url": null,
       "status": "scheduled",
       "verified": true,
-      "last_checked_at": "2026-10-02T05:04:36-07:00"
+      "last_checked_at": "2026-10-05T15:03:43-07:00"
+    },
+    {
+      "id": "evt_fc07d861fbadb396",
+      "title": "Magic of the Jack O'Lanterns",
+      "starts_at": "2026-10-08T00:00:00-07:00",
+      "ends_at": "2026-10-11T23:59:59-07:00",
+      "time_tbd": true,
+      "venue_name": "South Coast Botanic Garden",
+      "address": "26300 Crenshaw Blvd",
+      "city": "Palos Verdes Peninsula",
+      "is_free": false,
+      "price_text": null,
+      "age_range": null,
+      "description": "Lit pumpkin trail plus family Fun Zone. Open this midweek stretch and the weekend — check which nights remain.",
+      "category": "this_weekend",
+      "source_url": "https://magicofthejackolanterns.com/la/",
+      "image_url": null,
+      "status": "scheduled",
+      "verified": true,
+      "last_checked_at": "2026-10-05T15:03:43-07:00"
     }
   ],
-  "next_cursor": "eyJ2IjoxLCJzIjoxNzkxNjU1MjAwMDAwLCJpIjoiZXZ0XzAxMDhkNmViZWMyNjY4YTciLCJxIjoidm5UNno4bkVwTXNfIn0"
+  "next_cursor": "eyJ2IjoxLCJzIjoxNzkxNDQyODAwMDAwLCJpIjoiZXZ0X2ZjMDdkODYxZmJhZGIzOTYiLCJxIjoidm5UNno4bkVwTXNfIn0"
 }
 ```
 

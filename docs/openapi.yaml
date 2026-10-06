@@ -70,7 +70,7 @@ paths:
             application/json:
               schema: { $ref: "#/components/schemas/EventsPage" }
               example:
-                last_updated: "2026-10-02T05:04:36-07:00"
+                last_updated: "2026-10-05T15:03:43-07:00"
                 from: "2026-10-05"
                 to: "2026-10-11"
                 events:
@@ -91,7 +91,7 @@ paths:
                     image_url: null
                     status: scheduled
                     verified: true
-                    last_checked_at: "2026-10-02T05:04:36-07:00"
+                    last_checked_at: "2026-10-05T15:03:43-07:00"
                 next_cursor: null
         "400":
           description: |
