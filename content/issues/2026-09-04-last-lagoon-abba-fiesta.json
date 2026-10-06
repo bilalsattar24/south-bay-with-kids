@@ -2,6 +2,7 @@
   "date": "2026-09-04",
   "title": "Last lagoon swim Monday, ABBA Sunday, Fiesta all weekend",
   "intro": "Labor Day weekend. Last chance at Seaside Lagoon (closes Mon Sep 7), last Manhattan Beach Concerts in the Park on Sunday, and Fiesta Hermosa downtown all three days. Cards below. We left parking, food, and prices blank unless we could confirm them on an official page.",
+  "last_checked_at": "2026-09-04T08:22:21-07:00",
   "picks": [
     {
       "name": "Seaside Lagoon (last day Monday)",
@@ -15,7 +16,17 @@
       "cost_math": "2 adults + 2 kids: $10 + $10 + $8 + $8 = $36 entry (ages 2–17; under 2 free). Plus harbor parking. Official rates page. Season ends Labor Day, Monday September 7.",
       "parking": "Paid harbor lots. Official city waterfront page lists the Marina lot at 181 N. Harbor Drive at $2/hour (pay station or ParkMobile +$0.35 app fee).",
       "food": "Ice chests allowed. No glass, no alcohol, no personal BBQs. Picnic tables with BBQ are reservation-only. Official page does not list a snack bar.",
-      "why": "Last three days of the 2026 season at the enclosed saltwater lagoon with slides."
+      "why": "Last three days of the 2026 season at the enclosed saltwater lagoon with slides.",
+      "starts_at": "2026-09-05T10:00:00-07:00",
+      "ends_at": "2026-09-07T17:45:00-07:00",
+      "time_tbd": false,
+      "id": "evt_82cdafe764df6d56",
+      "venue_name": "Seaside Lagoon",
+      "street_address": "200 Portofino Way",
+      "price_text": "$10 adults, $8 ages 2–17, under 2 free",
+      "image_url": null,
+      "status": "scheduled",
+      "verified": true
     },
     {
       "name": "Petty Theft (Torrance Summer Nights)",
@@ -29,7 +40,17 @@
       "cost_math": "2 adults + 2 kids: free entry. Parking not listed as paid on the city event page.",
       "parking": "Wilson Park lot. Official event page does not list a parking fee.",
       "food": "Official page does not list food. Bring a blanket or lawn chair.",
-      "why": "Tom Petty tribute on the Wilson Park lawn behind the splash pad."
+      "why": "Tom Petty tribute on the Wilson Park lawn behind the splash pad.",
+      "starts_at": "2026-09-05T17:00:00-07:00",
+      "ends_at": "2026-09-05T18:30:00-07:00",
+      "time_tbd": false,
+      "id": "evt_193117a361ca18b3",
+      "venue_name": "Wilson Park Amphitheatre",
+      "street_address": "2200 Crenshaw Blvd",
+      "price_text": null,
+      "image_url": null,
+      "status": "scheduled",
+      "verified": true
     },
     {
       "name": "Fiesta Hermosa",
@@ -43,7 +64,17 @@
       "cost_math": "2 adults + 2 kids: free to walk the festival. Mini carnival rides/games priced individually (price unknown on official page). The Garden is 21+ with a $10 daily cover — skip it with kids.",
       "parking": "Official page notes free bike valet; street parking is limited. Exact lot rates not listed.",
       "food": "Food Fair vendors on site. Cost varies.",
-      "why": "Makers Mercado, food fair, mini carnival, and free outdoor stages. Skip The Garden."
+      "why": "Makers Mercado, food fair, mini carnival, and free outdoor stages. Skip The Garden.",
+      "starts_at": "2026-09-05T11:00:00-07:00",
+      "ends_at": "2026-09-07T18:00:00-07:00",
+      "time_tbd": false,
+      "id": "evt_e679125dc3e8a68a",
+      "venue_name": "Downtown Hermosa Beach",
+      "street_address": null,
+      "price_text": null,
+      "image_url": null,
+      "status": "scheduled",
+      "verified": true
     },
     {
       "name": "Korean Friendship Bell ringing",
@@ -57,7 +88,17 @@
       "cost_math": "2 adults + 2 kids: free. Official LA Parks invitation PDF.",
       "parking": "Angels Gate Park lot. Official invitation does not list a fee.",
       "food": "Official notice does not list food. Pack snacks or eat after.",
-      "why": "First-Saturday community tour and bell ringing. Short and memorable for kids."
+      "why": "First-Saturday community tour and bell ringing. Short and memorable for kids.",
+      "starts_at": "2026-09-05T11:45:00-07:00",
+      "ends_at": null,
+      "time_tbd": false,
+      "id": "evt_3bd6c5a89c8b3047",
+      "venue_name": "Angels Gate Park / Korean Bell of Friendship",
+      "street_address": "3600 S. Gaffey St",
+      "price_text": null,
+      "image_url": null,
+      "status": "scheduled",
+      "verified": true
     },
     {
       "name": "Madrona Marsh Nature Walk",
@@ -71,7 +112,17 @@
       "cost_math": "2 adults + 2 kids: free. No registration required.",
       "parking": "Nature Center lot. Official page does not list a fee.",
       "food": "Official page does not list food. Eat first or pack light.",
-      "why": "Docent-led intro to plants and wildlife at the preserve. Weather can cancel — call for status."
+      "why": "Docent-led intro to plants and wildlife at the preserve. Weather can cancel — call for status.",
+      "starts_at": "2026-09-05T10:00:00-07:00",
+      "ends_at": "2026-09-05T12:00:00-07:00",
+      "time_tbd": false,
+      "id": "evt_a9994fe6772e7cca",
+      "venue_name": "Madrona Marsh Nature Center",
+      "street_address": "3201 Plaza Del Amo",
+      "price_text": null,
+      "image_url": null,
+      "status": "scheduled",
+      "verified": true
     },
     {
       "name": "Concerts in the Park: ABBA LA (last of the season)",
@@ -85,7 +136,17 @@
       "cost_math": "2 adults + 2 kids: free entry. Listed on the city calendar.",
       "parking": "City concert guidance: parking can be difficult; carpool, walk, or rideshare. Handicap parking at Begg Pool lot.",
       "food": "Bring a picnic. Official series guidance: no barbecues, no pets, low-back chairs preferred.",
-      "why": "Season finale ABBA tribute on the Polliwog lawn."
+      "why": "Season finale ABBA tribute on the Polliwog lawn.",
+      "starts_at": "2026-09-06T17:00:00-07:00",
+      "ends_at": "2026-09-06T19:00:00-07:00",
+      "time_tbd": false,
+      "id": "evt_eaac29d677343ea4",
+      "venue_name": "Polliwog Park Amphitheater",
+      "street_address": "1601 Manhattan Beach Blvd",
+      "price_text": null,
+      "image_url": null,
+      "status": "scheduled",
+      "verified": true
     },
     {
       "name": "512: The Selena Experience + Hispanic Heritage Festival",
@@ -99,7 +160,17 @@
       "cost_math": "2 adults + 2 kids: free entry. Torrance Summer Nights season finale.",
       "parking": "Columbia Park lot. Official event page does not list a parking fee.",
       "food": "City page mentions food as part of the festivities; vendor prices unknown.",
-      "why": "Selena tribute with mariachi opener at the inaugural Hispanic Heritage Festival."
+      "why": "Selena tribute with mariachi opener at the inaugural Hispanic Heritage Festival.",
+      "starts_at": "2026-09-12T17:00:00-07:00",
+      "ends_at": "2026-09-12T18:30:00-07:00",
+      "time_tbd": false,
+      "id": "evt_4252dbec726a3ad8",
+      "venue_name": "Columbia Park",
+      "street_address": "4045 190th St",
+      "price_text": null,
+      "image_url": null,
+      "status": "scheduled",
+      "verified": true
     },
     {
       "name": "Moompetam American Indian Festival",
@@ -113,7 +184,17 @@
       "cost_math": "2 adults (12+) + 2 kids (3–11): $49.95 + $49.95 + $34.95 + $34.95 = $169.80 entry. Under 3 free. Members free with reservation. Parking unknown on the event page. Reservations required.",
       "parking": "Unknown on the official festival page. Confirm on Aquarium visit pages before you go.",
       "food": "Aquarium cafes on site; festival page does not break out food prices. Eat first if you want to save.",
-      "why": "Craft demos, storytelling, music, and dance celebrating California Indigenous maritime cultures. Included with general admission."
+      "why": "Craft demos, storytelling, music, and dance celebrating California Indigenous maritime cultures. Included with general admission.",
+      "starts_at": "2026-09-12T09:00:00-07:00",
+      "ends_at": "2026-09-13T17:00:00-07:00",
+      "time_tbd": false,
+      "id": "evt_87087bddd8e240b9",
+      "venue_name": "Aquarium of the Pacific",
+      "street_address": "100 Aquarium Way",
+      "price_text": "$49.95 ages 12+, $34.95 ages 3–11, under 3 free",
+      "image_url": null,
+      "status": "scheduled",
+      "verified": true
     },
     {
       "name": "Native Garden Restoration at Cabrillo Marine Aquarium",
@@ -128,7 +209,17 @@
       "parking": "Cabrillo Beach paid lot historically $3/hr with $9 daily max, card only. Confirm on arrival.",
       "food": "Picnic areas in Cabrillo Coastal Park next to the aquarium.",
       "why": "Help tend the native garden with aquarium educators. All ages; kids with an adult.",
-      "age_gate": "All ages; children must be with an adult."
+      "age_gate": "All ages; children must be with an adult.",
+      "starts_at": "2026-09-12T09:00:00-07:00",
+      "ends_at": "2026-09-12T10:30:00-07:00",
+      "time_tbd": false,
+      "id": "evt_8d26b66b71a279e9",
+      "venue_name": "Cabrillo Marine Aquarium native garden",
+      "street_address": "3720 Stephen M. White Drive",
+      "price_text": null,
+      "image_url": null,
+      "status": "scheduled",
+      "verified": true
     },
     {
       "name": "Torrance Farmers Market",
@@ -138,7 +229,18 @@
       "family_of_4_estimate": 0,
       "cost_kind": "free",
       "cost_math": "Wilson Park, year-round Tue/Sat.",
-      "why": "Wilson Park, year-round Tue/Sat."
+      "why": "Wilson Park, year-round Tue/Sat.",
+      "city": "Torrance",
+      "venue_name": "Wilson Park",
+      "street_address": "2400 Jefferson Street",
+      "starts_at": "2026-09-05T08:00:00-07:00",
+      "ends_at": "2026-09-05T13:00:00-07:00",
+      "time_tbd": false,
+      "id": "evt_1da759aa402e7b33",
+      "price_text": null,
+      "image_url": null,
+      "status": "scheduled",
+      "verified": true
     },
     {
       "name": "Saturday Storytime",
@@ -148,7 +250,18 @@
       "family_of_4_estimate": 0,
       "cost_kind": "free",
       "cost_math": "Manhattan Beach Library, ages 0–5. Bubbles and chalk after.",
-      "why": "Manhattan Beach Library, ages 0–5. Bubbles and chalk after."
+      "why": "Manhattan Beach Library, ages 0–5. Bubbles and chalk after.",
+      "city": "Manhattan Beach",
+      "venue_name": "Manhattan Beach Library",
+      "street_address": null,
+      "starts_at": "2026-09-05T11:00:00-07:00",
+      "ends_at": "2026-09-05T12:00:00-07:00",
+      "time_tbd": false,
+      "id": "evt_d150dc3aa273baf9",
+      "price_text": null,
+      "image_url": null,
+      "status": "scheduled",
+      "verified": true
     },
     {
       "name": "Baja Splash Cultural Festival at Aquarium of the Pacific",
@@ -158,7 +271,18 @@
       "family_of_4_estimate": null,
       "cost_kind": "free",
       "cost_math": "Further out — tickets sell; reserve if you want the cultural festival weekend.",
-      "why": "Further out — tickets sell; reserve if you want the cultural festival weekend."
+      "why": "Further out — tickets sell; reserve if you want the cultural festival weekend.",
+      "city": "Long Beach",
+      "venue_name": "Aquarium of the Pacific",
+      "street_address": "100 Aquarium Way",
+      "starts_at": "2026-09-26T00:00:00-07:00",
+      "ends_at": "2026-09-27T23:59:59-07:00",
+      "time_tbd": true,
+      "id": "evt_6617fd7f6fb66b01",
+      "price_text": null,
+      "image_url": null,
+      "status": "scheduled",
+      "verified": false
     }
   ]
 }

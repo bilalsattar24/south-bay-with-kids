@@ -2,6 +2,7 @@
   "date": "2026-09-25",
   "title": "Main Street Fair Saturday, free San Pedro dance fest, pumpkins after dark",
   "intro": "Street-fair Saturday is the big one this weekend. El Segundo closes Main Street for the Kiwanis fair, San Pedro puts twenty dance companies on the grass at Peck Park free, and Magic of the Jack O'Lanterns keeps glowing at South Coast Botanic Garden. Cards below. We left parking, food, and prices blank unless we could confirm them on an official page.",
+  "last_checked_at": "2026-09-25T05:04:24-07:00",
   "picks": [
     {
       "name": "El Segundo Main Street Fair",
@@ -15,7 +16,17 @@
       "cost_math": "2 adults + 2 kids: free admission. Kid Activity Zone (inflatables, rides, petting zoo, pony rides) and food priced individually \u2014 amounts not listed on the Kiwanis page. Beer garden is the adult zone.",
       "parking": "Official Kiwanis page does not list parking rates. Street closures on Main; park nearby and walk.",
       "food": "Food court and local restaurant fair deals on site. Prices vary.",
-      "why": "Eight blocks of crafts, a dedicated kids zone, food, and live music. Kiwanis fundraiser for local kids."
+      "why": "Eight blocks of crafts, a dedicated kids zone, food, and live music. Kiwanis fundraiser for local kids.",
+      "starts_at": "2026-09-26T09:00:00-07:00",
+      "ends_at": "2026-09-26T17:00:00-07:00",
+      "time_tbd": false,
+      "id": "evt_7806a33ecea41853",
+      "venue_name": "Main Street",
+      "street_address": null,
+      "price_text": null,
+      "image_url": null,
+      "status": "scheduled",
+      "verified": true
     },
     {
       "name": "San Pedro Festival of the Arts",
@@ -29,7 +40,17 @@
       "cost_math": "2 adults + 2 kids: free. Picnic welcome.",
       "parking": "Official festival page does not list parking rates.",
       "food": "Bring a picnic (official). Vendor details not listed.",
-      "why": "Free outdoor dance festival with about 20 companies on the grass. All ages."
+      "why": "Free outdoor dance festival with about 20 companies on the grass. All ages.",
+      "starts_at": "2026-09-26T13:00:00-07:00",
+      "ends_at": "2026-09-26T16:30:00-07:00",
+      "time_tbd": false,
+      "id": "evt_ab7adbabf59936de",
+      "venue_name": "Peck Park Upper Green near Community Center",
+      "street_address": "560 N Western Ave",
+      "price_text": null,
+      "image_url": null,
+      "status": "scheduled",
+      "verified": true
     },
     {
       "name": "Magic of the Jack O'Lanterns",
@@ -43,7 +64,17 @@
       "cost_math": "2 adults + 2 kids: ticket prices vary by night and tier. Live cart prices were not readable from the official LA pages this week \u2014 confirm in the ticket widget before you buy. Parking cost not listed on the LA event page (ignore Denver/Hudson Gardens parking copy on other MOTJ pages).",
       "parking": "Official LA page does not list a parking fee for South Coast Botanic Garden. Use 26300 Crenshaw Blvd.",
       "food": "Food and beverages on site (official). Cashless event. Optional s'mores area.",
-      "why": "Mile-long trail of carved glowing pumpkins plus Fun Zone bounce pad and slides. Still early in the season."
+      "why": "Mile-long trail of carved glowing pumpkins plus Fun Zone bounce pad and slides. Still early in the season.",
+      "starts_at": "2026-09-25T00:00:00-07:00",
+      "ends_at": "2026-09-27T23:59:59-07:00",
+      "time_tbd": true,
+      "id": "evt_2a5d59ede3fdd5f9",
+      "venue_name": "South Coast Botanic Garden",
+      "street_address": "26300 Crenshaw Blvd",
+      "price_text": null,
+      "image_url": null,
+      "status": "scheduled",
+      "verified": true
     },
     {
       "name": "Baja Splash Cultural Festival",
@@ -57,7 +88,17 @@
       "cost_math": "2 adults (12+) + 2 kids (3\u201311): $49.95 + $49.95 + $34.95 + $34.95 = $169.80 entry. Under 3 free. Members free with reservation. Plus $8 validated Aquarium parking \u2248 $177.80. Reservations required.",
       "parking": "Aquarium parking structure: $8 flat with Aquarium validation.",
       "food": "Aquarium cafes / nearby Pike & Shoreline Village; festival page does not break out food prices.",
-      "why": "Dance, live music, and bilingual programs celebrating cultures of M\u00e9xico, Central and South America. Included with general admission."
+      "why": "Dance, live music, and bilingual programs celebrating cultures of M\u00e9xico, Central and South America. Included with general admission.",
+      "starts_at": "2026-09-26T09:00:00-07:00",
+      "ends_at": "2026-09-27T17:00:00-07:00",
+      "time_tbd": false,
+      "id": "evt_6617fd7f6fb66b01",
+      "venue_name": "Aquarium of the Pacific",
+      "street_address": "100 Aquarium Way",
+      "price_text": "$49.95 ages 12+, $34.95 ages 3\u201311, under 3 free",
+      "image_url": null,
+      "status": "scheduled",
+      "verified": true
     },
     {
       "name": "Salt Marsh Open House at Cabrillo",
@@ -71,7 +112,17 @@
       "cost_math": "2 adults + 2 kids: free program (aquarium suggested donation $10 adult / $5 child \u2014 not required). Parking: $3/hr, $9 daily max, card only \u2192 about $9 if you stay for the program.",
       "parking": "Cabrillo Beach lot: $3/hr, $9 daily max, credit/debit only.",
       "food": "Official calendar does not list food. Picnic areas in Cabrillo Coastal Park.",
-      "why": "Binoculars and magnifiers to explore the salt marsh. Calm outdoor nature for all ages (kids with an adult)."
+      "why": "Binoculars and magnifiers to explore the salt marsh. Calm outdoor nature for all ages (kids with an adult).",
+      "starts_at": "2026-09-27T13:00:00-07:00",
+      "ends_at": "2026-09-27T15:00:00-07:00",
+      "time_tbd": false,
+      "id": "evt_fd1a4df94541e0ae",
+      "venue_name": "Salinas de San Pedro / Cabrillo Beach area",
+      "street_address": "3720 Stephen M. White Drive",
+      "price_text": null,
+      "image_url": null,
+      "status": "scheduled",
+      "verified": true
     },
     {
       "name": "South Bay Legends Memorial Free Surf Contest",
@@ -85,7 +136,17 @@
       "cost_math": "2 adults + 2 kids: free to enter (official). Shortboard, foam, and grom divisions including Push-In ages 1\u20138. Beach games all day noted by organizers.",
       "parking": "Official signup page does not list parking rates. El Porto street parking gets tight.",
       "food": "Official page does not list food. Pack snacks or eat nearby.",
-      "why": "Free all-ages memorial surf contest at El Porto with beach games. Great if your kids already surf or just want to watch."
+      "why": "Free all-ages memorial surf contest at El Porto with beach games. Great if your kids already surf or just want to watch.",
+      "starts_at": "2026-09-27T00:00:00-07:00",
+      "ends_at": null,
+      "time_tbd": true,
+      "id": "evt_cd8be3523cc3c8b9",
+      "venue_name": "El Porto",
+      "street_address": "42nd Street",
+      "price_text": null,
+      "image_url": null,
+      "status": "scheduled",
+      "verified": true
     },
     {
       "name": "National Public Lands Day at White Point",
@@ -99,7 +160,17 @@
       "cost_math": "2 adults + 2 kids: free volunteer morning. Pre-register on PVPLC VolunteerHub. Under 18 needs a guardian release; under 16 with an adult. Native plant sale 10:30 a.m.\u201312:00 p.m. and guided garden tour 11:00\u201311:30 a.m. same morning (free to attend; plants for purchase).",
       "parking": "Free lot via Western Ave to Paseo del Mar; overflow oceanside / White Point\u2013Royal Palms (PVPLC).",
       "food": "Official listing does not list food. Eat first or pack light.",
-      "why": "Habitat care plus children\u2019s activities on public lands day. Easy same-morning plant sale and garden tour add-on."
+      "why": "Habitat care plus children\u2019s activities on public lands day. Easy same-morning plant sale and garden tour add-on.",
+      "starts_at": "2026-09-26T09:30:00-07:00",
+      "ends_at": "2026-09-26T12:30:00-07:00",
+      "time_tbd": false,
+      "id": "evt_ccd215d0c5fa181c",
+      "venue_name": "White Point Nature Preserve",
+      "street_address": "1600 W. Paseo del Mar",
+      "price_text": null,
+      "image_url": null,
+      "status": "scheduled",
+      "verified": true
     },
     {
       "name": "Manhattan Beach Hometown Fair",
@@ -113,7 +184,17 @@
       "cost_math": "2 adults + 2 kids: free admission. Kid Country (petting zoo, inflatables, shows) free per attractions page. Food and paid games extra.",
       "parking": "Official site notes parking is challenging; accessible parking at Civic Center Lot (Highland & 15th, placard) first-come.",
       "food": "Nonprofit food booths on Dorsey/Live Oak fields. Prices not listed.",
-      "why": "Flagship free hometown fair with Kid Country. Mark the calendar \u2014 no tickets, but crowds are real."
+      "why": "Flagship free hometown fair with Kid Country. Mark the calendar \u2014 no tickets, but crowds are real.",
+      "starts_at": "2026-10-03T10:00:00-07:00",
+      "ends_at": "2026-10-04T18:00:00-07:00",
+      "time_tbd": false,
+      "id": "evt_4e1d3c236fd0d4b4",
+      "venue_name": "Live Oak Park, Dorsey Field & Joslyn Center",
+      "street_address": null,
+      "price_text": null,
+      "image_url": null,
+      "status": "scheduled",
+      "verified": true
     },
     {
       "name": "ArtLab: D\u00eda de los Muertos at Marine Mammal Care Center",
@@ -127,7 +208,17 @@
       "cost_math": "2 adults + 2 kids: free. Max 35; reserve on Eventbrite. All ages; kids with an adult. Supplies provided.",
       "parking": "Official listing does not list parking rates.",
       "food": "Official listing does not list food.",
-      "why": "Marine-mammal science lesson + patient tour + alebrije art. Same Saturday as the MB fair \u2014 pick one or go early to ArtLab."
+      "why": "Marine-mammal science lesson + patient tour + alebrije art. Same Saturday as the MB fair \u2014 pick one or go early to ArtLab.",
+      "starts_at": "2026-10-03T13:00:00-07:00",
+      "ends_at": "2026-10-03T15:00:00-07:00",
+      "time_tbd": false,
+      "id": "evt_92b61f45f20bb15d",
+      "venue_name": "Marine Mammal Care Center",
+      "street_address": "3601 S. Gaffey St",
+      "price_text": null,
+      "image_url": null,
+      "status": "scheduled",
+      "verified": true
     },
     {
       "name": "Downtown San Pedro Night Market",
@@ -141,7 +232,17 @@
       "cost_math": "2 adults + 2 kids: free admission. Food and shopping extra (prices unknown).",
       "parking": "Official event page does not list parking rates.",
       "food": "Local food vendors on site. Prices vary.",
-      "why": "Evening street market with music and vendors downtown. Easy weeknight out with kids."
+      "why": "Evening street market with music and vendors downtown. Easy weeknight out with kids.",
+      "starts_at": "2026-10-01T17:30:00-07:00",
+      "ends_at": "2026-10-01T21:30:00-07:00",
+      "time_tbd": false,
+      "id": "evt_c33f485c21d32b9b",
+      "venue_name": "Downtown San Pedro",
+      "street_address": "300 W 6th St",
+      "price_text": null,
+      "image_url": null,
+      "status": "scheduled",
+      "verified": true
     },
     {
       "name": "Festa Italiana Los Angeles",
@@ -155,7 +256,17 @@
       "cost_math": "2 adults + 2 kids: free entry and entertainment. Food and merch paid. Topaz Garage on Centre (5th\u20136th) $10 flat Saturday 10:30 a.m.\u2013midnight; street meters $0.50/half-hour before 6 p.m. \u2192 entry $0 + parking about $10 if you use the garage.",
       "parking": "Street first-come; Topaz Building garage on Centre St $10 flat Sat 10:30 a.m.\u2013midnight (official FAQ).",
       "food": "20+ Italian food vendors; kids games and photo experiences; beer garden for adults. Dogs on leash OK.",
-      "why": "Big free Italian street festa with kids activities. Strong October Saturday in San Pedro."
+      "why": "Big free Italian street festa with kids activities. Strong October Saturday in San Pedro.",
+      "starts_at": "2026-10-10T11:00:00-07:00",
+      "ends_at": "2026-10-10T22:00:00-07:00",
+      "time_tbd": false,
+      "id": "evt_0108d6ebec2668a7",
+      "venue_name": "6th St between S. Palos Verdes & S. Centre",
+      "street_address": "222 W 6th St",
+      "price_text": null,
+      "image_url": null,
+      "status": "scheduled",
+      "verified": true
     },
     {
       "name": "Scaredown in Downtown Torrance",
@@ -169,7 +280,17 @@
       "cost_math": "Discover Torrance lists trunk-or-treat, games, live bands/DJ, and marketplace. No admission price stated \u2014 treat as unknown.",
       "parking": "Official listing does not list parking rates. Old Torrance street parking.",
       "food": "Marketplace and food implied; prices unknown.",
-      "why": "Early Halloween downtown \u2014 trunk-or-treat and games for families. Same Saturday as MB Hometown Fair."
+      "why": "Early Halloween downtown \u2014 trunk-or-treat and games for families. Same Saturday as MB Hometown Fair.",
+      "starts_at": "2026-10-03T16:00:00-07:00",
+      "ends_at": "2026-10-03T21:00:00-07:00",
+      "time_tbd": false,
+      "id": "evt_a978b09379889b16",
+      "venue_name": "Old Torrance",
+      "street_address": null,
+      "price_text": null,
+      "image_url": null,
+      "status": "scheduled",
+      "verified": true
     },
     {
       "name": "Friday Fun at Madrona Marsh",
@@ -184,7 +305,17 @@
       "parking": "Nature Center lot. Official page does not list a fee.",
       "food": "Official page does not list food.",
       "why": "Hands-on preschool nature (story, science, art, tour).",
-      "age_gate": "Ages 3\u20136 + parent/guardian"
+      "age_gate": "Ages 3\u20136 + parent/guardian",
+      "starts_at": "2026-09-25T10:00:00-07:00",
+      "ends_at": "2026-09-25T12:00:00-07:00",
+      "time_tbd": false,
+      "id": "evt_89046b1cac69b7db",
+      "venue_name": "Madrona Marsh Nature Center",
+      "street_address": "3201 Plaza del Amo",
+      "price_text": null,
+      "image_url": null,
+      "status": "scheduled",
+      "verified": true
     },
     {
       "name": "Public Fish Dissection at Cabrillo",
@@ -198,7 +329,17 @@
       "cost_math": "Free demos; no registration. Aquarium suggested donation optional. Parking up to $9/day card only.",
       "parking": "Cabrillo Beach lot: $3/hr, $9 daily max, card only.",
       "food": "Official calendar does not list food.",
-      "why": "All-ages anatomy demos. Skip if your kids are squeamish."
+      "why": "All-ages anatomy demos. Skip if your kids are squeamish.",
+      "starts_at": "2026-09-26T13:15:00-07:00",
+      "ends_at": "2026-09-26T15:00:00-07:00",
+      "time_tbd": false,
+      "id": "evt_0e100afa5db31904",
+      "venue_name": "Cabrillo Marine Aquarium",
+      "street_address": "3720 Stephen M. White Drive",
+      "price_text": null,
+      "image_url": null,
+      "status": "scheduled",
+      "verified": true
     },
     {
       "name": "Family Science Sunday at Marine Mammal Care Center",
@@ -213,7 +354,17 @@
       "parking": "Official page does not list parking rates.",
       "food": "Official page does not list food.",
       "why": "Ocean and marine-mammal science plus patient viewing.",
-      "age_gate": "Ages 8+ (adults accompany ages 13 and under)"
+      "age_gate": "Ages 8+ (adults accompany ages 13 and under)",
+      "starts_at": "2026-09-27T11:00:00-07:00",
+      "ends_at": null,
+      "time_tbd": false,
+      "id": "evt_192aed854ed47cbb",
+      "venue_name": "Marine Mammal Care Center",
+      "street_address": "3601 S. Gaffey St, Suite #8",
+      "price_text": "$1 booking fee per person; admission otherwise free",
+      "image_url": null,
+      "status": "scheduled",
+      "verified": true
     },
     {
       "name": "Oktoberfest Torrance bounce houses (Mom Said Yes)",
@@ -227,7 +378,17 @@
       "cost_math": "Free entry; bounce houses free. Beer-pong tournament is 21+ only \u2014 skip that part.",
       "parking": "Free on site (official).",
       "food": "Pretzels and beer cheese all day; pizza venue. Prices unknown.",
-      "why": "Daytime family slice of Oktoberfest with free bounce houses. Stay out of the 21+ tournament."
+      "why": "Daytime family slice of Oktoberfest with free bounce houses. Stay out of the 21+ tournament.",
+      "starts_at": "2026-09-26T11:00:00-07:00",
+      "ends_at": null,
+      "time_tbd": false,
+      "id": "evt_e87cb893f19c552a",
+      "venue_name": null,
+      "street_address": "4525 Calle Mayor",
+      "price_text": null,
+      "image_url": null,
+      "status": "scheduled",
+      "verified": true
     },
     {
       "name": "Bird Walk at Madrona Marsh",
@@ -241,7 +402,17 @@
       "cost_math": "Free. All ages; kids welcome with adults. Pre-reg optional: (310) 782-3989.",
       "parking": "Nature Center lot. Official page does not list a fee.",
       "food": "Official page does not list food.",
-      "why": "Beginner-friendly bird walk for mixed ages."
+      "why": "Beginner-friendly bird walk for mixed ages.",
+      "starts_at": "2026-09-26T09:00:00-07:00",
+      "ends_at": "2026-09-26T11:00:00-07:00",
+      "time_tbd": false,
+      "id": "evt_d54ff17d682600ec",
+      "venue_name": "Madrona Marsh",
+      "street_address": "3201 Plaza del Amo",
+      "price_text": null,
+      "image_url": null,
+      "status": "scheduled",
+      "verified": true
     },
     {
       "name": "RPV Trunk or Treat",
@@ -253,7 +424,17 @@
       "family_of_4_estimate": 0,
       "cost_kind": "free",
       "cost_math": "Free. Free parking plus shuttle from Point Vicente Interpretive Center.",
-      "why": "City trunk-or-treat with inflatables and parade. Tickets aren't needed \u2014 crowds will be."
+      "why": "City trunk-or-treat with inflatables and parade. Tickets aren't needed \u2014 crowds will be.",
+      "starts_at": "2026-10-17T11:00:00-07:00",
+      "ends_at": "2026-10-17T14:00:00-07:00",
+      "time_tbd": false,
+      "id": "evt_7fd96a927fb12c0b",
+      "venue_name": "Ken Dyda Civic Center",
+      "street_address": "30940 Hawthorne Blvd",
+      "price_text": null,
+      "image_url": null,
+      "status": "scheduled",
+      "verified": false
     },
     {
       "name": "San Pedro D\u00eda de los Muertos Festival",
@@ -265,7 +446,17 @@
       "family_of_4_estimate": 0,
       "cost_kind": "free",
       "cost_math": "Free admission. Food vendors on site (prices unknown).",
-      "why": "Watch list \u2014 altars, folkl\u00f3rico, vendors, Catrina contest downtown."
+      "why": "Watch list \u2014 altars, folkl\u00f3rico, vendors, Catrina contest downtown.",
+      "starts_at": "2026-10-25T15:00:00-07:00",
+      "ends_at": "2026-10-25T21:30:00-07:00",
+      "time_tbd": false,
+      "id": "evt_35590cf9e7b78644",
+      "venue_name": "Downtown San Pedro",
+      "street_address": "396 W 6th St",
+      "price_text": null,
+      "image_url": null,
+      "status": "scheduled",
+      "verified": false
     },
     {
       "name": "Hermosa Beach Pumpkins in the Park",
@@ -277,7 +468,17 @@
       "family_of_4_estimate": null,
       "cost_kind": "free",
       "cost_math": "Listed on the Hermosa city calendar for Oct 10, 11:00 a.m.\u20131:00 p.m. Address and cost unconfirmed on a fetched official detail page this week \u2014 re-check city calendar before you go.",
-      "why": "Pumpkin decorating and costume parade historically \u2014 confirm city detail page."
+      "why": "Pumpkin decorating and costume parade historically \u2014 confirm city detail page.",
+      "starts_at": "2026-10-10T11:00:00-07:00",
+      "ends_at": "2026-10-10T13:00:00-07:00",
+      "time_tbd": false,
+      "id": "evt_fd41b40e54c20960",
+      "venue_name": null,
+      "street_address": null,
+      "price_text": null,
+      "image_url": null,
+      "status": "scheduled",
+      "verified": false
     },
     {
       "name": "Cabrillo Sea Scare: Monsters of Myth",
@@ -289,7 +490,17 @@
       "family_of_4_estimate": null,
       "cost_kind": "required",
       "cost_math": "Ticketed evening event (presale numbers seen elsewhere; confirm live on CMA before buying). Parking up to $9. Ages 3+ typical.",
-      "why": "Watch list \u2014 aquarium Halloween with trick-or-treat and haunted house. Confirm prices on CMA."
+      "why": "Watch list \u2014 aquarium Halloween with trick-or-treat and haunted house. Confirm prices on CMA.",
+      "starts_at": "2026-10-17T19:00:00-07:00",
+      "ends_at": "2026-10-17T22:00:00-07:00",
+      "time_tbd": false,
+      "id": "evt_a68129cd44171c2c",
+      "venue_name": "Cabrillo Marine Aquarium",
+      "street_address": "3720 Stephen M. White Drive",
+      "price_text": null,
+      "image_url": null,
+      "status": "scheduled",
+      "verified": false
     }
   ]
 }

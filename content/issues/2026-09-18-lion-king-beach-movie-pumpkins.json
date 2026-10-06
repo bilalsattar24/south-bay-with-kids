@@ -2,6 +2,7 @@
   "date": "2026-09-18",
   "title": "Lion King under the stars, free beach movie, Jack O'Lanterns open",
   "intro": "Fall kicks off this weekend. Rancho Palos Verdes screens The Lion King free at Eastview Park, Hermosa wraps Movies at the Beach with 10 Things on the sand, and Magic of the Jack O'Lanterns opens at South Coast Botanic Garden. Torrance also hosts the Ukulele Festival (kids free with a paying adult). Cards below. We left parking, food, and prices blank unless we could confirm them on an official page.",
+  "last_checked_at": "2026-09-18T05:21:32-07:00",
   "picks": [
     {
       "name": "Magic of the Jack O'Lanterns (opens tonight)",
@@ -15,7 +16,17 @@
       "cost_math": "2 adults + 2 kids: ticket calendar shows from about $25.99 incl. fees per ticket on many September nights → roughly $104 for four before add-ons. Confirm age tiers in the live cart. Parking cost not listed on the LA event page.",
       "parking": "Official LA page does not list a parking fee. Use 26300 Crenshaw Blvd.",
       "food": "Food and beverages on site (official). Cashless event.",
-      "why": "Mile-long trail of 10,000+ carved pumpkins plus Fun Zone bounce pad and slides. Season opens this weekend."
+      "why": "Mile-long trail of 10,000+ carved pumpkins plus Fun Zone bounce pad and slides. Season opens this weekend.",
+      "starts_at": "2026-09-18T00:00:00-07:00",
+      "ends_at": "2026-09-20T23:59:59-07:00",
+      "time_tbd": true,
+      "id": "evt_fbbe725c073a0cc1",
+      "venue_name": "South Coast Botanic Garden",
+      "street_address": "26300 Crenshaw Blvd",
+      "price_text": "From about $25.99 per ticket incl. fees (varies by night)",
+      "image_url": null,
+      "status": "scheduled",
+      "verified": true
     },
     {
       "name": "Movie in the Park: The Lion King",
@@ -29,7 +40,17 @@
       "cost_math": "2 adults + 2 kids: free. Complimentary popcorn and lawn games. No food truck onsite.",
       "parking": "Official city notice does not list a parking fee.",
       "food": "Bring a picnic or snacks — city notice says no food truck onsite. Complimentary popcorn.",
-      "why": "Free Lion King under the stars at a new Eastview Park location. Low chairs or blankets."
+      "why": "Free Lion King under the stars at a new Eastview Park location. Low chairs or blankets.",
+      "starts_at": "2026-09-19T18:00:00-07:00",
+      "ends_at": null,
+      "time_tbd": false,
+      "id": "evt_6ddea50c7b6796d2",
+      "venue_name": "Eastview Park",
+      "street_address": "1700 Westmont Dr",
+      "price_text": null,
+      "image_url": null,
+      "status": "scheduled",
+      "verified": true
     },
     {
       "name": "Movies at the Beach: 10 Things I Hate About You",
@@ -43,7 +64,17 @@
       "cost_math": "2 adults + 2 kids: free admission. Donations appreciated (Friends of the Parks).",
       "parking": "Official page does not list parking rates. Pier parking gets tight — walk, bike, or arrive early.",
       "food": "Bring your own food and non-alcoholic drinks (official). No alcohol. Dogs not permitted on the beach.",
-      "why": "Last Movies at the Beach night of the season. Blankets and low-back chairs only."
+      "why": "Last Movies at the Beach night of the season. Blankets and low-back chairs only.",
+      "starts_at": "2026-09-19T18:00:00-07:00",
+      "ends_at": null,
+      "time_tbd": false,
+      "id": "evt_d9aaf862dd138d82",
+      "venue_name": "Sand just south of the Hermosa Beach Pier",
+      "street_address": null,
+      "price_text": null,
+      "image_url": null,
+      "status": "scheduled",
+      "verified": true
     },
     {
       "name": "Los Angeles International Ukulele Festival",
@@ -57,7 +88,17 @@
       "cost_math": "Kids 17 & under free with a paying adult (official FAQ). Saturday performance pass ~$29 × 2 adults = $58; all-access workshops ~$59 × 2 = $118. Free marketplace + beginner intro classes open to the public. Parking free on site.",
       "parking": "Free and plentiful on Torrance Cultural Arts Center grounds (official FAQ).",
       "food": "Food vendors on site including vegetarian, drinks, coffee, snacks, shave ice (FAQ).",
-      "why": "10th annual all-ages uke weekend. Kids free with an adult; marketplace is free to stroll."
+      "why": "10th annual all-ages uke weekend. Kids free with an adult; marketplace is free to stroll.",
+      "starts_at": "2026-09-18T00:00:00-07:00",
+      "ends_at": "2026-09-20T23:59:59-07:00",
+      "time_tbd": true,
+      "id": "evt_5fca8571e936abf2",
+      "venue_name": "Torrance Cultural Arts Center",
+      "street_address": "3330 Civic Center Dr",
+      "price_text": "Saturday performance pass about $29 per adult; kids 17 and under free with a paying adult",
+      "image_url": null,
+      "status": "scheduled",
+      "verified": true
     },
     {
       "name": "Discovery Zone at Madrona Marsh",
@@ -71,7 +112,17 @@
       "cost_math": "2 adults + 2 kids: free hands-on program. No fee listed on the Friends events calendar.",
       "parking": "Nature Center lot. Official page does not list a fee.",
       "food": "Official page does not list food. Eat first or pack light.",
-      "why": "Touch feathers, tracks, shells, and simple science for young marsh explorers."
+      "why": "Touch feathers, tracks, shells, and simple science for young marsh explorers.",
+      "starts_at": "2026-09-19T10:30:00-07:00",
+      "ends_at": "2026-09-19T12:00:00-07:00",
+      "time_tbd": false,
+      "id": "evt_dedce070c1eab58a",
+      "venue_name": "Madrona Marsh Nature Center",
+      "street_address": "3201 Plaza Del Amo",
+      "price_text": null,
+      "image_url": null,
+      "status": "scheduled",
+      "verified": true
     },
     {
       "name": "Coastal Cleanup Day at Manhattan Beach Pier",
@@ -85,7 +136,17 @@
       "cost_math": "2 adults + 2 kids: free. Donations suggested to Roundhouse Aquarium. Statewide Coastal Cleanup Day site with Heal the Bay.",
       "parking": "Official Roundhouse page does not list parking rates. Pier parking is limited — arrive early.",
       "food": "Official page does not list food. Eat first.",
-      "why": "All-ages beach cleanup with Roundhouse Aquarium. Bring reusable gloves/bucket if you have them."
+      "why": "All-ages beach cleanup with Roundhouse Aquarium. Bring reusable gloves/bucket if you have them.",
+      "starts_at": "2026-09-19T09:00:00-07:00",
+      "ends_at": "2026-09-19T12:00:00-07:00",
+      "time_tbd": false,
+      "id": "evt_df6245e6d871985e",
+      "venue_name": "Base of Manhattan Beach Pier",
+      "street_address": "2 Manhattan Beach Blvd",
+      "price_text": null,
+      "image_url": null,
+      "status": "scheduled",
+      "verified": true
     },
     {
       "name": "Hermosa Beach Concert Series: Cubensis",
@@ -99,7 +160,17 @@
       "cost_math": "2 adults + 2 kids: free. City Parks & Recreation series — last of the two post–Labor Day Sundays.",
       "parking": "Official series page does not list parking rates. Pier parking is limited.",
       "food": "Official page does not list food. Pack a picnic.",
-      "why": "Free afternoon Grateful Dead tribute on the sand. Easy Sunday with kids if they like live music."
+      "why": "Free afternoon Grateful Dead tribute on the sand. Easy Sunday with kids if they like live music.",
+      "starts_at": "2026-09-20T15:00:00-07:00",
+      "ends_at": null,
+      "time_tbd": false,
+      "id": "evt_9b14dabdfecaff50",
+      "venue_name": "Beach south of the Hermosa Beach Pier",
+      "street_address": null,
+      "price_text": null,
+      "image_url": null,
+      "status": "scheduled",
+      "verified": true
     },
     {
       "name": "Shark Lagoon Twilight Tuesday",
@@ -113,7 +184,17 @@
       "cost_math": "2 adults + 2 kids: free entry with reservation required. Only Shark Lagoon is open. Plus $8 validated Aquarium parking if you drive.",
       "parking": "Aquarium parking structure: $8 flat with Aquarium validation.",
       "food": "Beverages and snacks for purchase (official).",
-      "why": "Free evening shark and ray touch experience. Tickets release one date at a time — reserve early."
+      "why": "Free evening shark and ray touch experience. Tickets release one date at a time — reserve early.",
+      "starts_at": "2026-09-22T18:00:00-07:00",
+      "ends_at": "2026-09-22T21:00:00-07:00",
+      "time_tbd": false,
+      "id": "evt_a85e8ebaa6bac728",
+      "venue_name": "Aquarium of the Pacific Shark Lagoon",
+      "street_address": "100 Aquarium Way",
+      "price_text": null,
+      "image_url": null,
+      "status": "scheduled",
+      "verified": true
     },
     {
       "name": "El Segundo Main Street Fair",
@@ -127,7 +208,17 @@
       "cost_math": "2 adults + 2 kids: free to walk the fair. Kids games / food / crafts priced individually (amounts not listed on the Kiwanis page). Beer garden is the adult zone.",
       "parking": "Official Kiwanis page does not list parking rates. Street closures on Main; park nearby and walk.",
       "food": "Food court and local restaurant fair deals on site. Prices vary.",
-      "why": "Eight blocks of crafts, kids games, food, and live music. Kiwanis fundraiser for local kids."
+      "why": "Eight blocks of crafts, kids games, food, and live music. Kiwanis fundraiser for local kids.",
+      "starts_at": "2026-09-26T09:00:00-07:00",
+      "ends_at": "2026-09-26T17:00:00-07:00",
+      "time_tbd": false,
+      "id": "evt_7806a33ecea41853",
+      "venue_name": "Main Street",
+      "street_address": null,
+      "price_text": null,
+      "image_url": null,
+      "status": "scheduled",
+      "verified": true
     },
     {
       "name": "San Pedro Festival of the Arts",
@@ -141,7 +232,17 @@
       "cost_math": "2 adults + 2 kids: free family dance festival. Picnic welcome.",
       "parking": "Official festival page does not list parking rates.",
       "food": "Bring a picnic (official). Vendor details not listed.",
-      "why": "20th year — free afternoon of 20 dance companies on the grass. All ages."
+      "why": "20th year — free afternoon of 20 dance companies on the grass. All ages.",
+      "starts_at": "2026-09-26T13:00:00-07:00",
+      "ends_at": "2026-09-26T16:30:00-07:00",
+      "time_tbd": false,
+      "id": "evt_ab7adbabf59936de",
+      "venue_name": "Peck Park Upper Green near Community Center",
+      "street_address": "560 N Western Ave",
+      "price_text": null,
+      "image_url": null,
+      "status": "scheduled",
+      "verified": true
     },
     {
       "name": "Baja Splash Cultural Festival",
@@ -155,7 +256,17 @@
       "cost_math": "2 adults (12+) + 2 kids (3–11): $49.95 + $49.95 + $34.95 + $34.95 = $169.80 entry. Under 3 free. Members free with reservation. Plus $8 validated Aquarium parking ≈ $177.80. Reservations required.",
       "parking": "Aquarium parking structure: $8 flat with Aquarium validation.",
       "food": "Aquarium cafes / nearby Pike & Shoreline Village; festival page does not break out food prices.",
-      "why": "Dance, live music, and bilingual programs celebrating cultures of México, Central and South America. Included with general admission."
+      "why": "Dance, live music, and bilingual programs celebrating cultures of México, Central and South America. Included with general admission.",
+      "starts_at": "2026-09-26T09:00:00-07:00",
+      "ends_at": "2026-09-27T17:00:00-07:00",
+      "time_tbd": false,
+      "id": "evt_6617fd7f6fb66b01",
+      "venue_name": "Aquarium of the Pacific",
+      "street_address": "100 Aquarium Way",
+      "price_text": "$49.95 ages 12+, $34.95 ages 3–11, under 3 free",
+      "image_url": null,
+      "status": "scheduled",
+      "verified": true
     },
     {
       "name": "Manhattan Beach Hometown Fair",
@@ -169,7 +280,17 @@
       "cost_math": "2 adults + 2 kids: free admission. Kid Country (pony rides, petting zoo, inflatables, shows) and free games are free per attractions page. Food and paid games extra.",
       "parking": "Official site notes parking is challenging; accessible parking at Civic Center Lot (Highland & 15th, placard) first-come.",
       "food": "Food vendors on site. Prices not listed.",
-      "why": "Classic free hometown fair with Kid Country all free to enjoy. Mark the calendar — tickets aren't needed, but crowds are."
+      "why": "Classic free hometown fair with Kid Country all free to enjoy. Mark the calendar — tickets aren't needed, but crowds are.",
+      "starts_at": "2026-10-03T10:00:00-07:00",
+      "ends_at": "2026-10-04T18:00:00-07:00",
+      "time_tbd": false,
+      "id": "evt_4e1d3c236fd0d4b4",
+      "venue_name": "Live Oak Park, Dorsey Field & Joslyn Center",
+      "street_address": null,
+      "price_text": null,
+      "image_url": null,
+      "status": "scheduled",
+      "verified": true
     },
     {
       "name": "Sensory Sensitive Saturday at Cabrillo",
@@ -183,7 +304,17 @@
       "cost_math": "2 adults + 2 kids: free entry (suggested donation $10 adult / $5 child — not required). Parking: cars $3/hr, $9 daily max, card only.",
       "parking": "Cabrillo Beach lot: $3/hr, $9 daily max, credit/debit only.",
       "food": "Picnic areas in Cabrillo Coastal Park. Official sensory listing does not list food vendors.",
-      "why": "Quieter hour for sensory-sensitive guests; sensory bags available at the welcome booth."
+      "why": "Quieter hour for sensory-sensitive guests; sensory bags available at the welcome booth.",
+      "starts_at": "2026-09-19T09:00:00-07:00",
+      "ends_at": "2026-09-19T10:00:00-07:00",
+      "time_tbd": false,
+      "id": "evt_5f598142945868eb",
+      "venue_name": "Cabrillo Marine Aquarium",
+      "street_address": "3720 Stephen M. White Drive",
+      "price_text": null,
+      "image_url": null,
+      "status": "scheduled",
+      "verified": true
     },
     {
       "name": "Family Storytime (North Torrance Library)",
@@ -194,7 +325,17 @@
       "family_of_4_estimate": 0,
       "cost_kind": "free",
       "cost_math": "Standing Torrance Public Library schedule. Free.",
-      "why": "Songs and stories for the whole family."
+      "why": "Songs and stories for the whole family.",
+      "venue_name": "North Torrance Library",
+      "street_address": null,
+      "starts_at": "2026-09-19T10:30:00-07:00",
+      "ends_at": null,
+      "time_tbd": false,
+      "id": "evt_df32466282556179",
+      "price_text": null,
+      "image_url": null,
+      "status": "scheduled",
+      "verified": true
     },
     {
       "name": "Sea Otter Awareness Week at Cabrillo",
@@ -208,7 +349,17 @@
       "cost_math": "Free aquarium entry (suggested donation optional). Parking up to $9/day.",
       "parking": "Cabrillo Beach lot: $3/hr, $9 daily max, card only.",
       "food": "Official calendar does not list food.",
-      "why": "Sea otter and kelp-forest learning in the exhibit hall."
+      "why": "Sea otter and kelp-forest learning in the exhibit hall.",
+      "starts_at": "2026-09-20T14:00:00-07:00",
+      "ends_at": "2026-09-20T17:00:00-07:00",
+      "time_tbd": false,
+      "id": "evt_a290a7ed87d63412",
+      "venue_name": "Cabrillo Marine Aquarium",
+      "street_address": "3720 Stephen M. White Drive",
+      "price_text": null,
+      "image_url": null,
+      "status": "scheduled",
+      "verified": true
     },
     {
       "name": "Magic of the Jack O'Lanterns — Low Sensory Night",
@@ -220,7 +371,17 @@
       "family_of_4_estimate": null,
       "cost_kind": "required",
       "cost_math": "Watch list — same pumpkin trail with reduced sensory effects. Tickets sell; confirm cart pricing.",
-      "why": "Best night if bright lights/fog are a lot for your kid."
+      "why": "Best night if bright lights/fog are a lot for your kid.",
+      "starts_at": "2026-09-27T00:00:00-07:00",
+      "ends_at": null,
+      "time_tbd": true,
+      "id": "evt_e841848f6e2eecc6",
+      "venue_name": "South Coast Botanic Garden",
+      "street_address": "26300 Crenshaw Blvd",
+      "price_text": null,
+      "image_url": null,
+      "status": "scheduled",
+      "verified": false
     },
     {
       "name": "Festa Italiana Los Angeles",
@@ -231,7 +392,17 @@
       "family_of_4_estimate": 0,
       "cost_kind": "free",
       "cost_math": "Free entry; food and merch paid. Further out — watch list.",
-      "why": "Free Italian street festa with kids games and music."
+      "why": "Free Italian street festa with kids games and music.",
+      "starts_at": "2026-10-10T11:00:00-07:00",
+      "ends_at": "2026-10-10T22:00:00-07:00",
+      "time_tbd": false,
+      "id": "evt_0108d6ebec2668a7",
+      "venue_name": null,
+      "street_address": null,
+      "price_text": null,
+      "image_url": null,
+      "status": "scheduled",
+      "verified": false
     },
     {
       "name": "San Pedro Día de los Muertos Festival",
@@ -243,7 +414,17 @@
       "family_of_4_estimate": 0,
       "cost_kind": "free",
       "cost_math": "Free admission. Food vendors on site (prices unknown).",
-      "why": "Watch list — altars, folklórico/Aztec dance, family activities downtown."
+      "why": "Watch list — altars, folklórico/Aztec dance, family activities downtown.",
+      "starts_at": "2026-10-25T15:00:00-07:00",
+      "ends_at": "2026-10-25T21:30:00-07:00",
+      "time_tbd": false,
+      "id": "evt_35590cf9e7b78644",
+      "venue_name": "Downtown San Pedro",
+      "street_address": "396 W 6th St",
+      "price_text": null,
+      "image_url": null,
+      "status": "scheduled",
+      "verified": false
     },
     {
       "name": "ArtLab at Marine Mammal Care Center",
@@ -255,7 +436,17 @@
       "family_of_4_estimate": 0,
       "cost_kind": "free",
       "cost_math": "Free; all supplies provided. All ages; kids with an adult. Same weekend as MB Hometown Fair.",
-      "why": "Science lesson + patient tour + art project with Angels Gate + MMCC."
+      "why": "Science lesson + patient tour + art project with Angels Gate + MMCC.",
+      "starts_at": "2026-10-03T13:00:00-07:00",
+      "ends_at": "2026-10-03T15:00:00-07:00",
+      "time_tbd": false,
+      "id": "evt_92b61f45f20bb15d",
+      "venue_name": "Marine Mammal Care Center",
+      "street_address": "3601 S. Gaffey St",
+      "price_text": null,
+      "image_url": null,
+      "status": "scheduled",
+      "verified": false
     }
   ]
 }

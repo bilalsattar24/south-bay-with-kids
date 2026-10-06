@@ -2,6 +2,7 @@
   "date": "2026-10-02",
   "title": "Hometown Fair Saturday, Scaredown Torrance, last chance SOAR",
   "intro": "Manhattan Beach runs its free Hometown Fair all weekend, Old Torrance does Scaredown Saturday night, and SOAR butterflies at South Coast Botanic Garden end Sunday. Cards below. We left parking, food, and prices blank unless we could confirm them on an official page.",
+  "last_checked_at": "2026-10-02T05:04:36-07:00",
   "picks": [
     {
       "name": "Manhattan Beach Hometown Fair",
@@ -15,7 +16,17 @@
       "cost_math": "2 adults + 2 kids: free admission. Kid Country (petting zoo, inflatables, magic and animal shows) free per attractions page. Paid games and food booths extra.",
       "parking": "Official FAQ: accessible parking first-come in Civic Center Lot (Highland & 15th, placard). General parking details sparse — street/lot congestion expected; cost unknown.",
       "food": "Nonprofit food booths on Live Oak and Dorsey fields; shaded seating by Main Stage. Beer/wine gardens are adult. Prices not listed.",
-      "why": "Flagship free hometown fair with Kid Country and a Saturday morning parade. Crowds are real — go early."
+      "why": "Flagship free hometown fair with Kid Country and a Saturday morning parade. Crowds are real — go early.",
+      "starts_at": "2026-10-03T10:00:00-07:00",
+      "ends_at": "2026-10-04T18:00:00-07:00",
+      "time_tbd": false,
+      "id": "evt_4e1d3c236fd0d4b4",
+      "venue_name": "Live Oak Park, Dorsey Field & Joslyn Center",
+      "street_address": null,
+      "price_text": null,
+      "image_url": null,
+      "status": "scheduled",
+      "verified": true
     },
     {
       "name": "Scaredown in Downtown Torrance",
@@ -29,7 +40,17 @@
       "cost_math": "2 adults + 2 kids: free outdoor community event (DTA volunteer-run). Optional $10 commemorative bag at DTA booth. Family Fun Zone (bounce house, crafts) included.",
       "parking": "Free lots: Sartori structure, Destination Art (1815 W 213th), Cravens lot, street. Paid Wells Fargo lot. Free shuttle every 15 min 3:30–10:00 p.m. from Wilson Park (2200 Crenshaw) courtesy Supervisor Hahn.",
       "food": "Downtown restaurants open with seasonal specials; candy from businesses. Adult drinks at some spots.",
-      "why": "Costume trunk-or-treat, Family Fun Zone, DJ and dance — easy Halloween street night without tickets."
+      "why": "Costume trunk-or-treat, Family Fun Zone, DJ and dance — easy Halloween street night without tickets.",
+      "starts_at": "2026-10-03T16:00:00-07:00",
+      "ends_at": "2026-10-03T21:00:00-07:00",
+      "time_tbd": false,
+      "id": "evt_a978b09379889b16",
+      "venue_name": "Old Torrance",
+      "street_address": null,
+      "price_text": null,
+      "image_url": null,
+      "status": "scheduled",
+      "verified": true
     },
     {
       "name": "Magic of the Jack O'Lanterns",
@@ -43,7 +64,17 @@
       "cost_math": "2 adults + 2 kids: ticket prices vary by night and tier. Live cart prices were not readable as a static table this week — confirm in the Zentix widget before you buy. Secondary ticketing help cites GA from about $29.99 adult / $24.99 kids on select nights. Parking cost not listed on the LA event page (ignore Denver/Hudson Gardens parking copy on other MOTJ pages).",
       "parking": "Official LA page does not list a parking fee for South Coast Botanic Garden. Use 26300 Crenshaw Blvd.",
       "food": "Food and beverages on site (official). Cashless event. Fun Zone / food trucks vary by night.",
-      "why": "Lit pumpkin trail plus family Fun Zone. Still early in the season — check which nights are open."
+      "why": "Lit pumpkin trail plus family Fun Zone. Still early in the season — check which nights are open.",
+      "starts_at": "2026-10-02T00:00:00-07:00",
+      "ends_at": "2026-10-04T23:59:59-07:00",
+      "time_tbd": true,
+      "id": "evt_d708d4c8c03a7a5f",
+      "venue_name": "South Coast Botanic Garden",
+      "street_address": "26300 Crenshaw Blvd",
+      "price_text": null,
+      "image_url": null,
+      "status": "scheduled",
+      "verified": true
     },
     {
       "name": "SOAR: Tropical Butterflies (last days)",
@@ -57,7 +88,14 @@
       "cost_math": "2 adults + 2 kids (ages 3–12): non-member SOAR+garden $27 + $27 + $17 + $17 = $88 entry (ages 0–2 free). Optional butterfly feeding $6 per feeder. Timed advance tickets required. Parking cost not confirmed on the SOAR page this week → total unknown.",
       "parking": "Official SOAR page does not list a parking fee this pass. Use garden entrance on Crenshaw.",
       "food": "Garden café / on-site options typical; SOAR page does not break out food prices. No strollers in the butterfly pavilion (official).",
-      "why": "Last chance this weekend for the tropical butterfly pavilion plus garden admission."
+      "why": "Last chance this weekend for the tropical butterfly pavilion plus garden admission.",
+      "starts_at": null,
+      "venue_name": "South Coast Botanic Garden",
+      "street_address": "26300 Crenshaw Blvd",
+      "price_text": "Non-member SOAR + garden $27 adults, $17 ages 3–12, ages 0–2 free",
+      "image_url": null,
+      "status": "scheduled",
+      "verified": true
     },
     {
       "name": "Cabrillo Beach Cleanup",
@@ -71,7 +109,17 @@
       "cost_math": "2 adults + 2 kids: free program, all ages. Groups reserve by Thursday before: 310-548-7562. Parking $3/hr, $9 daily max, card only → about $9 if you stay for the cleanup.",
       "parking": "Cabrillo Beach lot: $3/hr, $9 daily max, credit/debit only (CMA admission/hours page).",
       "food": "Official event page does not list food. Picnic areas nearby in Cabrillo Coastal Park.",
-      "why": "Hands-on beach stewardship before the rest of Saturday fills up."
+      "why": "Hands-on beach stewardship before the rest of Saturday fills up.",
+      "starts_at": "2026-10-03T09:00:00-07:00",
+      "ends_at": "2026-10-03T10:30:00-07:00",
+      "time_tbd": false,
+      "id": "evt_32d107d0ad5136f3",
+      "venue_name": "Cabrillo Marine Aquarium",
+      "street_address": "3720 Stephen M. White Drive",
+      "price_text": null,
+      "image_url": null,
+      "status": "scheduled",
+      "verified": true
     },
     {
       "name": "Storytime Tails – Batty Bats",
@@ -86,7 +134,17 @@
       "parking": "Preserve parking at White Point (gravel lot at end of street per PVPLC pattern). Official listing does not list a fee.",
       "food": "Official listing does not list food. Eat first or pack light.",
       "why": "Preschool Halloween-adjacent nature storytime on the bluff.",
-      "age_gate": "Recommended ages 3–6 + caregivers"
+      "age_gate": "Recommended ages 3–6 + caregivers",
+      "starts_at": "2026-10-04T10:30:00-07:00",
+      "ends_at": "2026-10-04T11:30:00-07:00",
+      "time_tbd": false,
+      "id": "evt_1cd5a22a7b532283",
+      "venue_name": "White Point Nature Education Center",
+      "street_address": "1600 W. Paseo Del Mar",
+      "price_text": null,
+      "image_url": null,
+      "status": "scheduled",
+      "verified": true
     },
     {
       "name": "PVPLC 1st Saturday Guided Nature Walk — George F Canyon",
@@ -100,7 +158,17 @@
       "cost_math": "2 adults + 2 kids: free guided walk (listed under Activities for Families). RSVP via PVPLC calendar. Rain cancels.",
       "parking": "Dirt lot on west side of Palos Verdes Drive East (~400 ft south of Palos Verdes Drive North).",
       "food": "Official listing does not list food. Eat first.",
-      "why": "Easy free canyon walk with naturalists — good Saturday morning before the fair or Scaredown."
+      "why": "Easy free canyon walk with naturalists — good Saturday morning before the fair or Scaredown.",
+      "starts_at": "2026-10-03T10:30:00-07:00",
+      "ends_at": null,
+      "time_tbd": false,
+      "id": "evt_1cd130205087eb23",
+      "venue_name": "George F Canyon Nature Preserve",
+      "street_address": "27305 Palos Verdes Dr E",
+      "price_text": null,
+      "image_url": null,
+      "status": "scheduled",
+      "verified": true
     },
     {
       "name": "Turtle and Tortoise Day",
@@ -114,7 +182,17 @@
       "cost_math": "2 adults + 2 kids: no admission price on the Friends of Madrona Marsh page (treat as free). California Turtle and Tortoise Society brings live turtles and tortoises — hands-on, all ages.",
       "parking": "Nature Center lot. Official page does not list a fee.",
       "food": "Official page does not list food.",
-      "why": "Very popular Madrona day — live turtles and tortoises for all ages."
+      "why": "Very popular Madrona day — live turtles and tortoises for all ages.",
+      "starts_at": "2026-10-10T10:00:00-07:00",
+      "ends_at": "2026-10-10T16:00:00-07:00",
+      "time_tbd": false,
+      "id": "evt_01b475cb43ccc047",
+      "venue_name": "Madrona Marsh Nature Center",
+      "street_address": "3201 Plaza del Amo",
+      "price_text": null,
+      "image_url": null,
+      "status": "scheduled",
+      "verified": true
     },
     {
       "name": "Festa Italiana Los Angeles",
@@ -128,7 +206,17 @@
       "cost_math": "2 adults + 2 kids: free entry and entertainment. Food and merch paid. Topaz Garage on Centre (5th–6th) $10 flat Saturday 10:30 a.m.–midnight → entry $0 + parking about $10 if you use the garage.",
       "parking": "Street first-come; Topaz Building garage on Centre St $10 flat Sat 10:30 a.m.–midnight (official FAQ). Meters $0.50/half-hour before 6 p.m.",
       "food": "20+ Italian food vendors; kids games and photo experiences; beer garden for adults. Dogs on leash OK.",
-      "why": "Big free Italian street festa with kids activities. Strong October Saturday in San Pedro."
+      "why": "Big free Italian street festa with kids activities. Strong October Saturday in San Pedro.",
+      "starts_at": "2026-10-10T11:00:00-07:00",
+      "ends_at": "2026-10-10T22:00:00-07:00",
+      "time_tbd": false,
+      "id": "evt_0108d6ebec2668a7",
+      "venue_name": "6th St between S. Palos Verdes & S. Centre",
+      "street_address": "222 W 6th St",
+      "price_text": null,
+      "image_url": null,
+      "status": "scheduled",
+      "verified": true
     },
     {
       "name": "Sea Scare! Monsters of Myth",
@@ -142,7 +230,17 @@
       "cost_math": "2 adults + 2 kids: pre-sale non-members $18 + $18 + $12 + $12 = $60 entry. Event sells out — buy online. Parking may differ on special-event nights; daytime lot is $3/hr, $9 daily max card-only (confirm event night).",
       "parking": "Cabrillo Beach lot rules on CMA admission page ($3/hr, $9 daily max, card only). Special-event night parking not separately priced on the Sea Scare page.",
       "food": "Food trucks from 5:00 p.m. (official). Prices not listed.",
-      "why": "One-night aquarium Halloween — trick-or-treat, games, crafts, DJ, costume contest, family haunted house. Tickets matter."
+      "why": "One-night aquarium Halloween — trick-or-treat, games, crafts, DJ, costume contest, family haunted house. Tickets matter.",
+      "starts_at": "2026-10-17T19:00:00-07:00",
+      "ends_at": "2026-10-17T22:00:00-07:00",
+      "time_tbd": false,
+      "id": "evt_a68129cd44171c2c",
+      "venue_name": "Cabrillo Marine Aquarium",
+      "street_address": "3720 Stephen M. White Drive",
+      "price_text": "Pre-sale non-members $18 adults, $12 kids",
+      "image_url": null,
+      "status": "scheduled",
+      "verified": true
     },
     {
       "name": "RPV Trunk or Treat",
@@ -156,7 +254,17 @@
       "cost_math": "2 adults + 2 kids: free. Decorated trunks, inflatables, face painting, games, costume parade, puppet show/music. Food vendors for purchase.",
       "parking": "Free parking at Civic Center plus free shuttle from Point Vicente Interpretive Center, 31501 Palos Verdes Dr West (official flyer).",
       "food": "Food vendors on site. Prices not listed on flyer.",
-      "why": "City trunk-or-treat with inflatables and costume parade. Same day as Sea Scare — pick day or night."
+      "why": "City trunk-or-treat with inflatables and costume parade. Same day as Sea Scare — pick day or night.",
+      "starts_at": "2026-10-17T11:00:00-07:00",
+      "ends_at": "2026-10-17T14:00:00-07:00",
+      "time_tbd": false,
+      "id": "evt_7fd96a927fb12c0b",
+      "venue_name": "Ken Dyda Civic Center",
+      "street_address": "30940 Hawthorne Blvd",
+      "price_text": null,
+      "image_url": null,
+      "status": "scheduled",
+      "verified": true
     },
     {
       "name": "Friday Fun at Madrona Marsh",
@@ -171,7 +279,17 @@
       "parking": "Nature Center lot. Official page does not list a fee.",
       "food": "Official page does not list food.",
       "why": "Hands-on preschool nature (story, science, art, tour).",
-      "age_gate": "Ages 3–6 + parent/guardian"
+      "age_gate": "Ages 3–6 + parent/guardian",
+      "starts_at": "2026-10-02T10:00:00-07:00",
+      "ends_at": "2026-10-02T12:00:00-07:00",
+      "time_tbd": false,
+      "id": "evt_16b7bc016169d884",
+      "venue_name": "Madrona Marsh Nature Center",
+      "street_address": "3201 Plaza del Amo",
+      "price_text": null,
+      "image_url": null,
+      "status": "scheduled",
+      "verified": true
     },
     {
       "name": "Cabrillo Nature Journaling",
@@ -185,7 +303,17 @@
       "cost_math": "Free, all ages, no registration; materials provided. Parking up to $9/day card only.",
       "parking": "Cabrillo Beach lot: $3/hr, $9 daily max, card only.",
       "food": "Official calendar does not list food.",
-      "why": "Open all-ages animal ID and journaling — calm Sunday morning."
+      "why": "Open all-ages animal ID and journaling — calm Sunday morning.",
+      "starts_at": "2026-10-04T10:00:00-07:00",
+      "ends_at": "2026-10-04T12:00:00-07:00",
+      "time_tbd": false,
+      "id": "evt_8cf6c6cd06f6eeba",
+      "venue_name": "Cabrillo Marine Aquarium lower courtyard",
+      "street_address": "3720 Stephen M. White Drive",
+      "price_text": null,
+      "image_url": null,
+      "status": "scheduled",
+      "verified": true
     },
     {
       "name": "Cephalopod Awareness Week (drop-in)",
@@ -199,7 +327,17 @@
       "cost_math": "Aquarium suggested donation $10 adult / $5 child (not required). Parking up to $9/day card only.",
       "parking": "Cabrillo Beach lot: $3/hr, $9 daily max, card only.",
       "food": "Official calendar does not list food.",
-      "why": "Interactive cephalopod learning during regular visit hours."
+      "why": "Interactive cephalopod learning during regular visit hours.",
+      "starts_at": "2026-10-04T14:00:00-07:00",
+      "ends_at": "2026-10-04T17:00:00-07:00",
+      "time_tbd": false,
+      "id": "evt_b14b2e923fc7f292",
+      "venue_name": "Cabrillo Marine Aquarium Exhibit Hall",
+      "street_address": "3720 Stephen M. White Drive",
+      "price_text": "Suggested donation $10 adult, $5 child (not required)",
+      "image_url": null,
+      "status": "scheduled",
+      "verified": true
     },
     {
       "name": "Hermosa Beach Pumpkins in the Park",
@@ -211,7 +349,17 @@
       "family_of_4_estimate": null,
       "cost_kind": "free",
       "cost_math": "Date and place confirmed on Humanitix registration. City calendar Access Denied this week; program details (decorating, parade) not listed on the thin registration page — re-check before you go. Cost not stated.",
-      "why": "Watch list — Hermosa pumpkin morning; confirm city detail page."
+      "why": "Watch list — Hermosa pumpkin morning; confirm city detail page.",
+      "starts_at": "2026-10-10T11:00:00-07:00",
+      "ends_at": "2026-10-10T13:00:00-07:00",
+      "time_tbd": false,
+      "id": "evt_fd41b40e54c20960",
+      "venue_name": "Edith Rodaway Friendship Park",
+      "street_address": "350 Prospect Ave",
+      "price_text": null,
+      "image_url": null,
+      "status": "scheduled",
+      "verified": false
     },
     {
       "name": "Treats-n-Suites Halloween Bash",
@@ -223,7 +371,17 @@
       "family_of_4_estimate": null,
       "cost_kind": "required",
       "cost_math": "Official page lists about $8.77 per ticket incl. fees; ages 2–11 + families. Confirm whether adults need tickets before totaling a family of 4. Trick-or-treat, hayride, carnival games, costume parade.",
-      "why": "Watch list — paid kids Halloween bash near South Bay."
+      "why": "Watch list — paid kids Halloween bash near South Bay.",
+      "starts_at": "2026-10-16T16:00:00-07:00",
+      "ends_at": "2026-10-16T19:00:00-07:00",
+      "time_tbd": false,
+      "id": "evt_36d041c8586709cf",
+      "venue_name": "Dignity Health Sports Park",
+      "street_address": "18400 Avalon Blvd",
+      "price_text": "About $8.77 per ticket incl. fees",
+      "image_url": null,
+      "status": "scheduled",
+      "verified": false
     },
     {
       "name": "ICAN Inclusive Halloween Festival",
@@ -235,7 +393,17 @@
       "family_of_4_estimate": 0,
       "cost_kind": "free",
       "cost_math": "Free festival for people with disabilities (all ages) and families/caregivers. Food and merch for purchase.",
-      "why": "Watch list — inclusive Halloween fest same day as RPV Trunk or Treat."
+      "why": "Watch list — inclusive Halloween fest same day as RPV Trunk or Treat.",
+      "starts_at": "2026-10-17T11:00:00-07:00",
+      "ends_at": "2026-10-17T15:00:00-07:00",
+      "time_tbd": false,
+      "id": "evt_98e0dd0c6c2940ad",
+      "venue_name": "South Bay Regional Computing Center",
+      "street_address": "2300 Crenshaw",
+      "price_text": null,
+      "image_url": null,
+      "status": "scheduled",
+      "verified": false
     },
     {
       "name": "MB World Famous Pumpkin Race",
@@ -247,7 +415,17 @@
       "family_of_4_estimate": null,
       "cost_kind": "free",
       "cost_math": "City pumpkinrace page Access Denied from research tools this week. Tourism/guides cite free to watch; kit prices unconfirmed on city HTML. Re-verify manhattanbeach.gov before listing as a firm pick.",
-      "why": "Watch list — iconic MB pumpkin race; city site blocked this pass."
+      "why": "Watch list — iconic MB pumpkin race; city site blocked this pass.",
+      "starts_at": "2026-10-18T00:00:00-07:00",
+      "ends_at": null,
+      "time_tbd": true,
+      "id": "evt_0539695b71c7676d",
+      "venue_name": "Pier / Manhattan Beach Blvd area",
+      "street_address": null,
+      "price_text": null,
+      "image_url": null,
+      "status": "scheduled",
+      "verified": false
     },
     {
       "name": "Magic of the Jack O'Lanterns (ongoing)",
@@ -259,7 +437,14 @@
       "family_of_4_estimate": null,
       "cost_kind": "required",
       "cost_math": "Ticket + parking verify per night in Zentix.",
-      "why": "Watch list — multi-week paid night walk; tickets sell on peak nights."
+      "why": "Watch list — multi-week paid night walk; tickets sell on peak nights.",
+      "starts_at": null,
+      "venue_name": "South Coast Botanic Garden",
+      "street_address": "26300 Crenshaw Blvd",
+      "price_text": null,
+      "image_url": null,
+      "status": "scheduled",
+      "verified": false
     }
   ]
 }

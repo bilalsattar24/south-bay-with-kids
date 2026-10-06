@@ -1,0 +1,228 @@
+openapi: 3.1.0
+info:
+  title: South Bay with Kids Events API
+  version: 1.0.0
+  license:
+    name: Proprietary
+    identifier: LicenseRef-Proprietary
+  description: |
+    Read-only feed of the kid-friendly events published in the South Bay with
+    Kids newsletter. Data comes from the weekly issues in `content/issues/`.
+
+    * All responses are JSON (`application/json; charset=utf-8`).
+    * All times are `America/Los_Angeles`, always with the UTC offset.
+    * Breaking changes ship as `/v2`; `/v1` only gains additive fields.
+servers:
+  - url: https://southbaywithkids.com/api/v1
+security:
+  - bearerAuth: []
+paths:
+  /events:
+    get:
+      operationId: listEvents
+      summary: List events in a date range
+      description: |
+        Returns events that overlap `[from 00:00, to 24:00)` in LA time,
+        sorted by `starts_at` ascending (ties broken by `id`). Multi-day
+        events are included on every day they span.
+
+        Rate limit: 60 requests per minute per API key (token bucket; bursts
+        up to 60). Exceeding it returns `429` with `Retry-After`. The limiter
+        is in-memory per server instance, so it is best-effort.
+      parameters:
+        - name: from
+          in: query
+          description: |
+            Range start (YYYY-MM-DD, LA date). Default: Monday of the current
+            LA week. If only `to` is given, defaults to the Monday of `to`'s week.
+          schema: { type: string, format: date, example: "2026-10-05" }
+        - name: to
+          in: query
+          description: |
+            Range end, inclusive (YYYY-MM-DD, LA date). Default: Sunday of the
+            current LA week. If only `from` is given, defaults to the Sunday of
+            `from`'s week. Range may not exceed 366 days.
+          schema: { type: string, format: date, example: "2026-10-11" }
+        - name: category
+          in: query
+          schema: { $ref: "#/components/schemas/Category" }
+        - name: limit
+          in: query
+          description: Page size. Values above 200 are clamped to 200.
+          schema: { type: integer, minimum: 1, maximum: 200, default: 50 }
+        - name: cursor
+          in: query
+          description: |
+            Opaque `next_cursor` from the previous page. Only valid with the
+            same `from`/`to`/`category`/`include_cancelled`; `limit` may change.
+          schema: { type: string }
+        - name: include_cancelled
+          in: query
+          schema: { type: boolean, default: false }
+      responses:
+        "200":
+          description: A page of events.
+          headers:
+            X-RateLimit-Limit: { $ref: "#/components/headers/X-RateLimit-Limit" }
+            X-RateLimit-Remaining: { $ref: "#/components/headers/X-RateLimit-Remaining" }
+            X-RateLimit-Reset: { $ref: "#/components/headers/X-RateLimit-Reset" }
+          content:
+            application/json:
+              schema: { $ref: "#/components/schemas/EventsPage" }
+              example:
+                last_updated: "2026-10-05T15:03:43-07:00"
+                from: "2026-10-05"
+                to: "2026-10-11"
+                events:
+                  - id: evt_01b475cb43ccc047
+                    title: Turtle and Tortoise Day
+                    starts_at: "2026-10-10T10:00:00-07:00"
+                    ends_at: "2026-10-10T16:00:00-07:00"
+                    time_tbd: false
+                    venue_name: Madrona Marsh Nature Center
+                    address: 3201 Plaza del Amo
+                    city: Torrance
+                    is_free: true
+                    price_text: null
+                    age_range: null
+                    description: Very popular Madrona day — live turtles and tortoises for all ages.
+                    category: this_weekend
+                    source_url: https://www.friendsofmadronamarsh.com/events/turtle-and-tortoise-day/
+                    image_url: null
+                    status: scheduled
+                    verified: true
+                    last_checked_at: "2026-10-05T15:03:43-07:00"
+                next_cursor: null
+        "400":
+          description: |
+            Invalid parameter (`invalid_parameter`), bad cursor
+            (`invalid_cursor`), or an API key was sent in the query string
+            (`credentials_in_query`).
+          content:
+            application/json:
+              schema: { $ref: "#/components/schemas/Error" }
+        "401":
+          description: Missing, malformed or unknown API key.
+          headers:
+            WWW-Authenticate:
+              schema: { type: string, example: 'Bearer realm="southbaywithkids-events"' }
+          content:
+            application/json:
+              schema: { $ref: "#/components/schemas/Error" }
+        "429":
+          description: Rate limit exceeded.
+          headers:
+            Retry-After:
+              description: Seconds to wait before retrying.
+              schema: { type: integer, example: 1 }
+            X-RateLimit-Limit: { $ref: "#/components/headers/X-RateLimit-Limit" }
+            X-RateLimit-Remaining: { $ref: "#/components/headers/X-RateLimit-Remaining" }
+            X-RateLimit-Reset: { $ref: "#/components/headers/X-RateLimit-Reset" }
+          content:
+            application/json:
+              schema: { $ref: "#/components/schemas/Error" }
+        "503":
+          description: No API keys are configured on this deployment (`api_not_configured`).
+          content:
+            application/json:
+              schema: { $ref: "#/components/schemas/Error" }
+components:
+  securitySchemes:
+    bearerAuth:
+      type: http
+      scheme: bearer
+      description: |
+        `Authorization: Bearer <key>`. Keys are issued out-of-band.
+        `X-API-Key` and query-string keys are not accepted.
+  headers:
+    X-RateLimit-Limit:
+      description: Requests allowed per minute for this key.
+      schema: { type: integer, example: 60 }
+    X-RateLimit-Remaining:
+      description: Requests left right now.
+      schema: { type: integer, example: 59 }
+    X-RateLimit-Reset:
+      description: Seconds until the bucket is full again.
+      schema: { type: integer, example: 1 }
+  schemas:
+    Category:
+      type: string
+      enum: [this_weekend, worth_the_drive, free_this_week]
+    EventsPage:
+      type: object
+      required: [last_updated, from, to, events, next_cursor]
+      properties:
+        last_updated:
+          type: [string, "null"]
+          format: date-time
+          description: Latest `last_checked_at` across all events (LA time with offset).
+        from: { type: string, format: date, description: Resolved range start. }
+        to: { type: string, format: date, description: Resolved range end (inclusive). }
+        events:
+          type: array
+          items: { $ref: "#/components/schemas/Event" }
+        next_cursor:
+          type: [string, "null"]
+          description: Pass as `cursor` to fetch the next page; null on the last page.
+    Event:
+      type: object
+      required:
+        [id, title, starts_at, ends_at, time_tbd, venue_name, address, city, is_free, price_text,
+         age_range, description, category, source_url, image_url, status, verified, last_checked_at]
+      properties:
+        id:
+          type: string
+          pattern: "^evt_[0-9a-f]{16}$"
+          description: Stable id; never changes when the event is edited. Dedupe on this.
+        title: { type: string, description: Plain text. }
+        starts_at:
+          type: string
+          format: date-time
+          description: ISO 8601 with LA offset. When `time_tbd` is true this is local midnight of the start date.
+        ends_at:
+          type: [string, "null"]
+          format: date-time
+          description: ISO 8601 with LA offset, or null when unknown.
+        time_tbd:
+          type: boolean
+          description: |
+            Extension to the v1 spec. True when the newsletter gave a date but
+            no start time; render the date only.
+        venue_name:
+          type: string
+          description: Venue or place name. Falls back to the street address, then the city, when no venue name is known.
+        address: { type: [string, "null"], description: "Street address, if known." }
+        city: { type: string, example: Torrance }
+        is_free:
+          type: boolean
+          description: True for free admission, including "suggested donation" events.
+        price_text:
+          type: [string, "null"]
+          description: Short price summary, e.g. "$10 adults, $8 ages 2–17". Null when free or unknown.
+        age_range: { type: [string, "null"], example: "Ages 3–6 + parent/guardian" }
+        description: { type: string, description: "1–2 sentences, plain text, no HTML." }
+        category: { $ref: "#/components/schemas/Category" }
+        source_url: { type: string, format: uri, description: Official event page. }
+        image_url: { type: [string, "null"], format: uri }
+        status: { type: string, enum: [scheduled, cancelled] }
+        verified:
+          type: boolean
+          description: Whether details were confirmed on an official page.
+        last_checked_at:
+          type: string
+          format: date-time
+          description: When the bot last verified this event (LA time with offset).
+    Error:
+      type: object
+      required: [error]
+      properties:
+        error:
+          type: object
+          required: [code, message]
+          properties:
+            code:
+              type: string
+              enum:
+                [invalid_parameter, invalid_cursor, credentials_in_query, unauthorized, rate_limited,
+                 api_not_configured]
+            message: { type: string }
