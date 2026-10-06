@@ -101,7 +101,7 @@ export function parseWhen(when: string | undefined, issueDate: string): ParsedWh
     .replace(/\([^)]*\)/g, " ")
     .replace(/\s+/g, " ")
     .trim();
-  if (!text || /^(select nights\s+)?through\b/i.test(text)) return null;
+  if (!text || /^(select nights\s+|continues\s+)?through\b/i.test(text)) return null;
 
   const warnings: string[] = [];
   const issueYear = Number(issueDate.slice(0, 4));

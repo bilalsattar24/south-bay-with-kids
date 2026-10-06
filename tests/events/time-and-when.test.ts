@@ -89,6 +89,7 @@ describe("parseWhen", () => {
     expect(parseWhen("Tue–Fri 12–5 p.m.; Sat–Sun 10 a.m.–5 p.m.", ISSUE)).toBeNull();
     expect(parseWhen("Through Sunday, October 4, 2026 (last day) — timed entry", ISSUE)).toBeNull();
     expect(parseWhen("Select nights through November 1, 2026", ISSUE)).toBeNull();
+    expect(parseWhen("Continues through Saturday, October 10 — daytime slots", ISSUE)).toBeNull();
     expect(parseWhen(undefined, ISSUE)).toBeNull();
   });
 });
