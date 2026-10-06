@@ -2,6 +2,7 @@
   "date": "2026-08-22",
   "title": "Tonight: last RPV concert, Sunday book festival",
   "intro": "Tonight is the last Rancho Palos Verdes summer concert — Pulp Vixen, 4–6 at the Ken Dyda Civic Center, free, with inflatables and crafts. Sunday, if you want a bigger outing, is the LA Kids Book Festival in West Hollywood (free; register). Cards below. We left parking, food, and prices blank unless we could confirm them.",
+  "last_checked_at": "2026-08-22T15:31:15-07:00",
   "picks": [
     {
       "name": "RPV Summer Concerts in the Park: Pulp Vixen",
@@ -14,7 +15,17 @@
       "cost_kind": "free",
       "cost_math": "2 adults + 2 kids: free entry, parking unknown.",
       "food": "Food trucks on site; picnic blankets welcome.",
-      "why": "Last concert of the series, with inflatables, crafts, and music-themed giveaways for kids."
+      "why": "Last concert of the series, with inflatables, crafts, and music-themed giveaways for kids.",
+      "starts_at": "2026-08-22T16:00:00-07:00",
+      "ends_at": "2026-08-22T18:00:00-07:00",
+      "time_tbd": false,
+      "id": "evt_30d289b9e23a0255",
+      "venue_name": "Ken Dyda Civic Center",
+      "street_address": "30940 Hawthorne Blvd",
+      "price_text": null,
+      "image_url": null,
+      "status": "scheduled",
+      "verified": true
     },
     {
       "name": "Redondo Pier Summer of Music: CC Stugino",
@@ -26,7 +37,17 @@
       "family_of_4_estimate": null,
       "cost_kind": "free",
       "cost_math": "2 adults + 2 kids: free entry, parking unknown. Weather permitting.",
-      "why": "Free blues-rock on the pier, open to the public."
+      "why": "Free blues-rock on the pier, open to the public.",
+      "starts_at": "2026-08-22T18:00:00-07:00",
+      "ends_at": "2026-08-22T20:00:00-07:00",
+      "time_tbd": false,
+      "id": "evt_c0a61bbb57b09603",
+      "venue_name": "Fisherman’s Wharf",
+      "street_address": null,
+      "price_text": null,
+      "image_url": null,
+      "status": "scheduled",
+      "verified": true
     },
     {
       "name": "Griffith Observatory public star party",
@@ -39,7 +60,17 @@
       "cost_kind": "free",
       "cost_math": "2 adults + 2 kids: free entry (building, grounds, and public telescopes). Parking is paid at the Observatory lot and nearby street; the official getting-here page does not list the rate. Limited.",
       "parking": "Paid lot and street near the Observatory, limited. Free parking around the Greek Theatre if you can walk up to a mile uphill (not after 1 p.m. on concert evenings).",
-      "why": "Look through volunteer telescopes at the Sun, Moon, and planets — a family outing worth the drive."
+      "why": "Look through volunteer telescopes at the Sun, Moon, and planets — a family outing worth the drive.",
+      "starts_at": "2026-08-22T14:00:00-07:00",
+      "ends_at": "2026-08-22T21:45:00-07:00",
+      "time_tbd": false,
+      "id": "evt_1a52824108c77913",
+      "venue_name": "Griffith Observatory",
+      "street_address": "2800 East Observatory Road",
+      "price_text": null,
+      "image_url": null,
+      "status": "scheduled",
+      "verified": true
     },
     {
       "name": "LA Kids Book Festival",
@@ -53,7 +84,17 @@
       "cost_math": "2 adults + 2 kids: free entry (register). Parking if you use Lot A all day: $1/15 min, $12 daily max (first hour free; extra hour with park/rec validation).",
       "parking": "Lot A garage at West Hollywood Park (paid, $12 daily max). Street meters $1–$2/hour.",
       "food": "Food trucks, drinks, and snacks on site.",
-      "why": "Authors, performances, and a closing foam party — free if you register."
+      "why": "Authors, performances, and a closing foam party — free if you register.",
+      "starts_at": "2026-08-23T09:00:00-07:00",
+      "ends_at": "2026-08-23T16:30:00-07:00",
+      "time_tbd": false,
+      "id": "evt_8a3cc557eeb0cf32",
+      "venue_name": "West Hollywood Park",
+      "street_address": "647 N San Vicente Blvd",
+      "price_text": null,
+      "image_url": null,
+      "status": "scheduled",
+      "verified": true
     },
     {
       "name": "Downtown Torrance Antique Street Faire",
@@ -66,7 +107,17 @@
       "cost_kind": "free",
       "cost_math": "2 adults + 2 kids: free admission, parking unknown. Optional antique appraisal is $3 per item.",
       "food": "Buy there — restaurants in downtown Torrance.",
-      "why": "Vintage stalls, live music, and a noon dance performance, a few blocks from home."
+      "why": "Vintage stalls, live music, and a noon dance performance, a few blocks from home.",
+      "starts_at": "2026-08-23T08:00:00-07:00",
+      "ends_at": "2026-08-23T15:00:00-07:00",
+      "time_tbd": false,
+      "id": "evt_b7532b2afac7ba51",
+      "venue_name": "Downtown Torrance",
+      "street_address": "1317 Sartori Avenue",
+      "price_text": null,
+      "image_url": null,
+      "status": "scheduled",
+      "verified": true
     },
     {
       "name": "Family Science Sunday at Marine Mammal Care Center",
@@ -80,7 +131,17 @@
       "cost_math": "2 adults + 2 kids: $1 nonrefundable booking fee each ($4) if all four join. Admission otherwise free. Fee waived with code MMCARE if needed. Parking free on site.",
       "parking": "Free lot in front of the hospital.",
       "why": "A one-hour ocean science session plus patient viewing and the exhibit hall.",
-      "age_gate": "Ages 8 and up; adults must accompany children 13 and under."
+      "age_gate": "Ages 8 and up; adults must accompany children 13 and under.",
+      "starts_at": "2026-08-23T11:00:00-07:00",
+      "ends_at": null,
+      "time_tbd": false,
+      "id": "evt_09bdd3967596c357",
+      "venue_name": "Marine Mammal Care Center",
+      "street_address": "3601 South Gaffey Street #8",
+      "price_text": "$1 booking fee per person; admission otherwise free",
+      "image_url": null,
+      "status": "scheduled",
+      "verified": true
     },
     {
       "name": "Let’s Get Organized",
@@ -93,7 +154,17 @@
       "cost_kind": "free",
       "cost_math": "2 adults + 2 kids: free program, parking unknown.",
       "why": "Design a desk organizer before school starts.",
-      "age_gate": "Ages 5–12 with a parent or caregiver."
+      "age_gate": "Ages 5–12 with a parent or caregiver.",
+      "starts_at": "2026-08-26T15:00:00-07:00",
+      "ends_at": "2026-08-26T16:00:00-07:00",
+      "time_tbd": false,
+      "id": "evt_abd28411cc128cd0",
+      "venue_name": "Hermosa Beach Library",
+      "street_address": "550 Pier Avenue",
+      "price_text": null,
+      "image_url": null,
+      "status": "scheduled",
+      "verified": true
     },
     {
       "name": "Smarty Pants Storytime",
@@ -106,7 +177,17 @@
       "cost_kind": "free",
       "cost_math": "2 adults + 2 kids: free program, parking unknown. Register everyone in your party.",
       "why": "Books, songs, and movement for school readiness — a short Friday stop.",
-      "age_gate": "Ages 2–5 with a parent or caregiver."
+      "age_gate": "Ages 2–5 with a parent or caregiver.",
+      "starts_at": "2026-08-28T09:30:00-07:00",
+      "ends_at": "2026-08-28T10:00:00-07:00",
+      "time_tbd": false,
+      "id": "evt_cd21dc773e145d9e",
+      "venue_name": "Hermosa Beach Library",
+      "street_address": "550 Pier Avenue",
+      "price_text": null,
+      "image_url": null,
+      "status": "scheduled",
+      "verified": true
     },
     {
       "name": "Friday Fun at Madrona Marsh",
@@ -119,7 +200,17 @@
       "cost_kind": "free",
       "cost_math": "2 adults + 2 kids: free program, parking unknown. Call Tuesday at 10 a.m. to register; first 20 people.",
       "why": "Story time, science, art, and a nature tour for preschoolers.",
-      "age_gate": "Ages 3–6 with a parent or guardian."
+      "age_gate": "Ages 3–6 with a parent or guardian.",
+      "starts_at": "2026-08-28T10:00:00-07:00",
+      "ends_at": "2026-08-28T12:00:00-07:00",
+      "time_tbd": false,
+      "id": "evt_b704721cff3ec3db",
+      "venue_name": "Madrona Marsh Nature Center",
+      "street_address": "3201 Plaza Del Amo",
+      "price_text": null,
+      "image_url": null,
+      "status": "scheduled",
+      "verified": true
     },
     {
       "name": "Torrance Summer Nights: Coldplay USA",
@@ -131,7 +222,17 @@
       "family_of_4_estimate": null,
       "cost_kind": "free",
       "cost_math": "2 adults + 2 kids: free entry, parking unknown.",
-      "why": "A free tribute set on the Wilson Park lawn. Bring a blanket or chair."
+      "why": "A free tribute set on the Wilson Park lawn. Bring a blanket or chair.",
+      "starts_at": "2026-08-29T17:00:00-07:00",
+      "ends_at": "2026-08-29T18:30:00-07:00",
+      "time_tbd": false,
+      "id": "evt_3ca4e77427e24e50",
+      "venue_name": "Wilson Park Amphitheatre",
+      "street_address": "2200 Crenshaw Blvd",
+      "price_text": null,
+      "image_url": null,
+      "status": "scheduled",
+      "verified": true
     },
     {
       "name": "Korean Friendship Bell",
@@ -143,7 +244,17 @@
       "family_of_4_estimate": null,
       "cost_kind": "free",
       "cost_math": "2 adults + 2 kids: free to visit, parking unknown.",
-      "why": "Pair a Labor Day Saturday at the bell with ArtLab down the hill, then Petty Theft in Torrance."
+      "why": "Pair a Labor Day Saturday at the bell with ArtLab down the hill, then Petty Theft in Torrance.",
+      "starts_at": "2026-09-05T00:00:00-07:00",
+      "ends_at": null,
+      "time_tbd": true,
+      "id": "evt_3bd6c5a89c8b3047",
+      "venue_name": "Angels Gate Park",
+      "street_address": null,
+      "price_text": null,
+      "image_url": null,
+      "status": "scheduled",
+      "verified": true
     },
     {
       "name": "ArtLab: Science & Art Workshops",
@@ -157,7 +268,17 @@
       "cost_math": "2 adults + 2 kids: free workshop (register on Eventbrite about two weeks prior). Parking free at MMCC.",
       "parking": "Free lot in front of the hospital.",
       "why": "A science lesson, a tour of patients, and an art project — supplies included.",
-      "age_gate": "All ages; children must be with an adult."
+      "age_gate": "All ages; children must be with an adult.",
+      "starts_at": "2026-09-05T13:00:00-07:00",
+      "ends_at": "2026-09-05T15:00:00-07:00",
+      "time_tbd": false,
+      "id": "evt_043f352f0b66b6df",
+      "venue_name": "Marine Mammal Care Center",
+      "street_address": "3601 S. Gaffey St",
+      "price_text": null,
+      "image_url": null,
+      "status": "scheduled",
+      "verified": true
     },
     {
       "name": "Torrance Summer Nights: Petty Theft",
@@ -169,7 +290,17 @@
       "family_of_4_estimate": null,
       "cost_kind": "free",
       "cost_math": "2 adults + 2 kids: free entry, parking unknown.",
-      "why": "Tom Petty tribute on the Wilson Park lawn after a San Pedro afternoon."
+      "why": "Tom Petty tribute on the Wilson Park lawn after a San Pedro afternoon.",
+      "starts_at": "2026-09-05T17:00:00-07:00",
+      "ends_at": "2026-09-05T18:30:00-07:00",
+      "time_tbd": false,
+      "id": "evt_193117a361ca18b3",
+      "venue_name": "Wilson Park Amphitheatre",
+      "street_address": "2200 Crenshaw Blvd",
+      "price_text": null,
+      "image_url": null,
+      "status": "scheduled",
+      "verified": true
     },
     {
       "name": "Cabrillo Marine Aquarium",
@@ -183,7 +314,14 @@
       "cost_math": "2 adults + 2 kids: free entry. Suggested donation $10/adult, $5/child ($30 if you give). Parking $3/hr, $9 daily max (card only) — $9 required if you drive and stay.",
       "parking": "Cabrillo Beach paid lot, $3/hr with a $9 daily max.",
       "food": "Picnic areas in Cabrillo Coastal Park next to the aquarium.",
-      "why": "Southern California marine life, free to walk in, a few minutes from the harbor."
+      "why": "Southern California marine life, free to walk in, a few minutes from the harbor.",
+      "starts_at": null,
+      "venue_name": null,
+      "street_address": "3720 Stephen M. White Drive",
+      "price_text": "Suggested donation $10/adult, $5/child",
+      "image_url": null,
+      "status": "scheduled",
+      "verified": true
     },
     {
       "name": "Marine Mammal Care Center public visitation",
@@ -196,7 +334,14 @@
       "cost_kind": "free",
       "cost_math": "2 adults + 2 kids: free entry. Parking free on site. Reserve ahead; walk-ins are limited.",
       "parking": "Free lot in front of the hospital.",
-      "why": "See seal and sea lion patients and the exhibit hall without a program fee."
+      "why": "See seal and sea lion patients and the exhibit hall without a program fee.",
+      "starts_at": null,
+      "venue_name": null,
+      "street_address": "3601 South Gaffey Street #8",
+      "price_text": null,
+      "image_url": null,
+      "status": "scheduled",
+      "verified": true
     }
   ]
 }

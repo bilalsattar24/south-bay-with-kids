@@ -2,6 +2,7 @@
   "date": "2026-08-28",
   "title": "Tonight: free space night, last pier concert Saturday",
   "intro": "Last full summer weekend before Labor Day. Tonight is a free Family Nite at the Columbia Memorial Space Center in Downey. Saturday is the last Redondo Pier concert, plus Coldplay USA on the Wilson Park lawn. Sunday, one last swim at Seaside Lagoon before it closes for the season. Cards below. We left parking, food, and prices blank unless we could confirm them.",
+  "last_checked_at": "2026-08-28T08:11:25-07:00",
   "picks": [
     {
       "name": "Family Nite at Columbia Memorial Space Center",
@@ -15,7 +16,17 @@
       "cost_math": "2 adults + 2 kids: free entry. Official page lists free parking in front of the building and along Columbia Way.",
       "parking": "Free lot in front of the Space Center and along Columbia Way.",
       "food": "Official page does not list food. Eat first.",
-      "why": "Astronaut story time (Astronaut Annie, read from the ISS) plus open exhibits after hours. About 35 minutes from Torrance."
+      "why": "Astronaut story time (Astronaut Annie, read from the ISS) plus open exhibits after hours. About 35 minutes from Torrance.",
+      "starts_at": "2026-08-28T18:00:00-07:00",
+      "ends_at": "2026-08-28T20:00:00-07:00",
+      "time_tbd": false,
+      "id": "evt_3cea72ef824b58a1",
+      "venue_name": "Columbia Memorial Space Center",
+      "street_address": "12400 Columbia Way",
+      "price_text": null,
+      "image_url": null,
+      "status": "scheduled",
+      "verified": true
     },
     {
       "name": "Torrance Summer Nights: Coldplay USA",
@@ -28,7 +39,17 @@
       "cost_kind": "free",
       "cost_math": "2 adults + 2 kids: free entry, parking unknown.",
       "food": "Official page does not list food. Bring a blanket or lawn chair.",
-      "why": "Free Coldplay tribute on the Wilson Park lawn, behind the splash pad."
+      "why": "Free Coldplay tribute on the Wilson Park lawn, behind the splash pad.",
+      "starts_at": "2026-08-29T17:00:00-07:00",
+      "ends_at": "2026-08-29T18:30:00-07:00",
+      "time_tbd": false,
+      "id": "evt_3ca4e77427e24e50",
+      "venue_name": "Wilson Park Amphitheatre",
+      "street_address": "2200 Crenshaw Blvd",
+      "price_text": null,
+      "image_url": null,
+      "status": "scheduled",
+      "verified": true
     },
     {
       "name": "Redondo Pier Summer of Music: 1969",
@@ -41,7 +62,17 @@
       "cost_kind": "free",
       "cost_math": "2 adults + 2 kids: free entry. Weather permitting. Harbor parking is paid.",
       "parking": "Paid harbor lots. Official city waterfront page lists the Marina lot at 181 N. Harbor Drive at $2/hour (pay station or ParkMobile).",
-      "why": "Last concert of the 2026 pier series. Classic rock, open to the public."
+      "why": "Last concert of the 2026 pier series. Classic rock, open to the public.",
+      "starts_at": "2026-08-29T18:00:00-07:00",
+      "ends_at": "2026-08-29T20:00:00-07:00",
+      "time_tbd": false,
+      "id": "evt_7b4a48498a593cb5",
+      "venue_name": "Fisherman’s Wharf",
+      "street_address": null,
+      "price_text": null,
+      "image_url": null,
+      "status": "scheduled",
+      "verified": true
     },
     {
       "name": "Salt Marsh Open House",
@@ -56,7 +87,17 @@
       "parking": "Cabrillo Beach paid lot, $3/hr with a $9 daily max. Card only.",
       "food": "Picnic areas in Cabrillo Coastal Park next to the aquarium.",
       "why": "Binoculars and tide-watching in the salt marsh with aquarium educators.",
-      "age_gate": "All ages; children must be with an adult."
+      "age_gate": "All ages; children must be with an adult.",
+      "starts_at": "2026-08-29T12:00:00-07:00",
+      "ends_at": "2026-08-29T14:00:00-07:00",
+      "time_tbd": false,
+      "id": "evt_c2064e251b9cd1ab",
+      "venue_name": "Cabrillo Marine Aquarium / Salinas de San Pedro",
+      "street_address": "3720 Stephen M. White Drive",
+      "price_text": null,
+      "image_url": null,
+      "status": "scheduled",
+      "verified": true
     },
     {
       "name": "Seaside Lagoon",
@@ -70,7 +111,17 @@
       "cost_math": "2 adults + 2 kids: $10 + $10 + $8 + $8 = $36 entry (ages 2–17). Plus harbor parking. Official rates page. Closed Sep 1–3. Season ends Labor Day, Sep 7.",
       "parking": "Paid harbor lots. Official city waterfront page lists the Marina lot at 181 N. Harbor Drive at $2/hour (pay station or ParkMobile).",
       "food": "Ice chests allowed. No glass, no alcohol, no personal BBQs. Picnic tables with BBQ are reservation-only. Official page does not list a snack bar.",
-      "why": "Last full weekends at the enclosed saltwater lagoon before the Labor Day close."
+      "why": "Last full weekends at the enclosed saltwater lagoon before the Labor Day close.",
+      "starts_at": "2026-08-29T10:00:00-07:00",
+      "ends_at": "2026-08-30T17:45:00-07:00",
+      "time_tbd": false,
+      "id": "evt_b260e5b43bd1e7a9",
+      "venue_name": "Seaside Lagoon",
+      "street_address": "200 Portofino Way",
+      "price_text": "$10 adults, $8 ages 2–17",
+      "image_url": null,
+      "status": "scheduled",
+      "verified": true
     },
     {
       "name": "Concerts in the Park: Stone Soul",
@@ -84,7 +135,17 @@
       "cost_math": "2 adults + 2 kids: free entry. Parking is limited around the park.",
       "parking": "City Parks page: parking around Polliwog gets difficult during the concert series. Carpool, walk, or rideshare. Handicap parking at Begg Pool lot.",
       "food": "Official series page says bring picnics. No barbecues in the park. No pets.",
-      "why": "Free Motown / classic soul on the Polliwog lawn."
+      "why": "Free Motown / classic soul on the Polliwog lawn.",
+      "starts_at": "2026-08-30T17:00:00-07:00",
+      "ends_at": "2026-08-30T19:00:00-07:00",
+      "time_tbd": false,
+      "id": "evt_15dbe23bfa2df254",
+      "venue_name": "Polliwog Park Amphitheater",
+      "street_address": "1601 Manhattan Beach Blvd",
+      "price_text": null,
+      "image_url": null,
+      "status": "scheduled",
+      "verified": true
     },
     {
       "name": "Tyke Hike",
@@ -98,7 +159,17 @@
       "cost_math": "2 adults + 2 kids: free program, parking unknown.",
       "food": "Official page does not list food. Outdoor walk; eat first.",
       "why": "A short nature walk for little kids. Birds, frogs, and a cool breeze.",
-      "age_gate": "Ages 0–6 with an adult. Meet in front of the Nature Center."
+      "age_gate": "Ages 0–6 with an adult. Meet in front of the Nature Center.",
+      "starts_at": "2026-09-03T10:00:00-07:00",
+      "ends_at": "2026-09-03T11:30:00-07:00",
+      "time_tbd": false,
+      "id": "evt_652ca1c51c2b80f7",
+      "venue_name": "Madrona Marsh Nature Center",
+      "street_address": "3201 Plaza Del Amo",
+      "price_text": null,
+      "image_url": null,
+      "status": "scheduled",
+      "verified": true
     },
     {
       "name": "Fiesta Hermosa",
@@ -112,7 +183,17 @@
       "cost_math": "2 adults + 2 kids: free to walk the makers mercado, food fair, stages, and mini carnival grounds. Garden area is 21+ with a $10 daily cover — skip it with kids. Carnival rides and food are extra; official page does not list ride prices.",
       "parking": "Street parking is limited. Official site offers free bike valet.",
       "food": "Food fair vendors on site. Buy there. Official page does not list an outside-food rule.",
-      "why": "Labor Day weekend street festival. Live music, a mini carnival, and vendors. Stay out of The Garden."
+      "why": "Labor Day weekend street festival. Live music, a mini carnival, and vendors. Stay out of The Garden.",
+      "starts_at": "2026-09-05T11:00:00-07:00",
+      "ends_at": "2026-09-07T18:00:00-07:00",
+      "time_tbd": false,
+      "id": "evt_e679125dc3e8a68a",
+      "venue_name": "Downtown Hermosa Beach",
+      "street_address": null,
+      "price_text": null,
+      "image_url": null,
+      "status": "scheduled",
+      "verified": true
     },
     {
       "name": "Torrance Summer Nights: Petty Theft",
@@ -125,7 +206,17 @@
       "cost_kind": "free",
       "cost_math": "2 adults + 2 kids: free entry, parking unknown.",
       "food": "Official page does not list food. Bring a blanket or lawn chair.",
-      "why": "Tom Petty tribute on the same Wilson Park lawn."
+      "why": "Tom Petty tribute on the same Wilson Park lawn.",
+      "starts_at": "2026-09-05T17:00:00-07:00",
+      "ends_at": "2026-09-05T18:30:00-07:00",
+      "time_tbd": false,
+      "id": "evt_193117a361ca18b3",
+      "venue_name": "Wilson Park Amphitheatre",
+      "street_address": "2200 Crenshaw Blvd",
+      "price_text": null,
+      "image_url": null,
+      "status": "scheduled",
+      "verified": true
     },
     {
       "name": "Concerts in the Park: ABBA LA",
@@ -139,7 +230,17 @@
       "cost_math": "2 adults + 2 kids: free entry. Parking is limited around the park.",
       "parking": "City Parks page: parking around Polliwog gets difficult during the concert series. Carpool, walk, or rideshare. Handicap parking at Begg Pool lot.",
       "food": "Official series page says bring picnics. No barbecues in the park. No pets.",
-      "why": "Last Concerts in the Park of the 2026 season."
+      "why": "Last Concerts in the Park of the 2026 season.",
+      "starts_at": "2026-09-06T17:00:00-07:00",
+      "ends_at": "2026-09-06T19:00:00-07:00",
+      "time_tbd": false,
+      "id": "evt_eaac29d677343ea4",
+      "venue_name": "Polliwog Park Amphitheater",
+      "street_address": "1601 Manhattan Beach Blvd",
+      "price_text": null,
+      "image_url": null,
+      "status": "scheduled",
+      "verified": true
     },
     {
       "name": "Smarty Pants Storytime",
@@ -152,7 +253,17 @@
       "cost_kind": "free",
       "cost_math": "2 adults + 2 kids: free program, parking unknown. Register everyone in your party; limited seats.",
       "why": "Books, songs, and movement for school readiness — only if you already registered.",
-      "age_gate": "Ages 2–5 with a parent or caregiver."
+      "age_gate": "Ages 2–5 with a parent or caregiver.",
+      "starts_at": "2026-08-28T09:30:00-07:00",
+      "ends_at": "2026-08-28T10:00:00-07:00",
+      "time_tbd": false,
+      "id": "evt_cd21dc773e145d9e",
+      "venue_name": "Hermosa Beach Library",
+      "street_address": "550 Pier Avenue",
+      "price_text": null,
+      "image_url": null,
+      "status": "scheduled",
+      "verified": true
     },
     {
       "name": "Torrance Certified Farmers Market",
@@ -165,7 +276,17 @@
       "cost_kind": "free",
       "cost_math": "2 adults + 2 kids: free to walk. Food and produce cost extra.",
       "food": "Buy there — produce, baked goods, and other market food.",
-      "why": "Saturday morning produce run in Wilson Park, rain or shine."
+      "why": "Saturday morning produce run in Wilson Park, rain or shine.",
+      "starts_at": "2026-08-29T08:00:00-07:00",
+      "ends_at": "2026-08-29T13:00:00-07:00",
+      "time_tbd": false,
+      "id": "evt_8a059f8f9aa4ea5c",
+      "venue_name": "Wilson Park",
+      "street_address": "2400 Jefferson Street",
+      "price_text": null,
+      "image_url": null,
+      "status": "scheduled",
+      "verified": true
     },
     {
       "name": "Nature Journaling at Cabrillo Marine Aquarium",
@@ -179,7 +300,17 @@
       "cost_math": "2 adults + 2 kids: free program, materials included. Parking $3/hr, $9 daily max (card only) if you drive.",
       "parking": "Cabrillo Beach paid lot, $3/hr with a $9 daily max. Card only.",
       "food": "Picnic areas in Cabrillo Coastal Park next to the aquarium.",
-      "why": "Identify marine animals and keep the journal they hand you. Drop in anytime; no registration."
+      "why": "Identify marine animals and keep the journal they hand you. Drop in anytime; no registration.",
+      "starts_at": "2026-08-30T10:00:00-07:00",
+      "ends_at": "2026-08-30T12:00:00-07:00",
+      "time_tbd": false,
+      "id": "evt_f088b441307ccafa",
+      "venue_name": "Cabrillo Marine Aquarium",
+      "street_address": "3720 Stephen M. White Drive",
+      "price_text": null,
+      "image_url": null,
+      "status": "scheduled",
+      "verified": true
     },
     {
       "name": "Cabrillo Marine Aquarium",
@@ -193,7 +324,14 @@
       "cost_math": "2 adults + 2 kids: free entry. Suggested donation $10/adult, $5/child ($30 if you give). Parking $3/hr, $9 daily max (card only) — $9 required if you drive and stay.",
       "parking": "Cabrillo Beach paid lot, $3/hr with a $9 daily max.",
       "food": "Picnic areas in Cabrillo Coastal Park next to the aquarium.",
-      "why": "Southern California marine life, free to walk in."
+      "why": "Southern California marine life, free to walk in.",
+      "starts_at": null,
+      "venue_name": null,
+      "street_address": "3720 Stephen M. White Drive",
+      "price_text": "Suggested donation $10/adult, $5/child",
+      "image_url": null,
+      "status": "scheduled",
+      "verified": true
     },
     {
       "name": "Korean Friendship Bell",
@@ -205,7 +343,17 @@
       "family_of_4_estimate": null,
       "cost_kind": "free",
       "cost_math": "2 adults + 2 kids: free to visit, parking unknown.",
-      "why": "Pair a Labor Day Saturday at the bell with Fiesta Hermosa or Petty Theft later."
+      "why": "Pair a Labor Day Saturday at the bell with Fiesta Hermosa or Petty Theft later.",
+      "starts_at": "2026-09-05T00:00:00-07:00",
+      "ends_at": null,
+      "time_tbd": true,
+      "id": "evt_3bd6c5a89c8b3047",
+      "venue_name": "Angels Gate Park",
+      "street_address": "3600 S. Gaffey Street",
+      "price_text": null,
+      "image_url": null,
+      "status": "scheduled",
+      "verified": false
     },
     {
       "name": "Seaside Lagoon last day",
@@ -218,7 +366,17 @@
       "cost_kind": "required",
       "cost_math": "2 adults + 2 kids: $36 entry (same official rates). Season ends Labor Day.",
       "parking": "Paid harbor lots. Marina lot $2/hour.",
-      "why": "Last day of the 2026 season before the lagoon closes."
+      "why": "Last day of the 2026 season before the lagoon closes.",
+      "starts_at": "2026-09-07T10:00:00-07:00",
+      "ends_at": "2026-09-07T17:45:00-07:00",
+      "time_tbd": false,
+      "id": "evt_82cdafe764df6d56",
+      "venue_name": "Seaside Lagoon",
+      "street_address": "200 Portofino Way",
+      "price_text": "$10 adults, $8 ages 2–17",
+      "image_url": null,
+      "status": "scheduled",
+      "verified": false
     }
   ]
 }
