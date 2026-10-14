@@ -2,7 +2,7 @@
   "date": "2026-10-14",
   "title": "Trunk-or-treat Saturday, pumpkin racers Sunday",
   "intro": "Halloween warm-up weekend. Saturday: RPV's trunk-or-treat and ICAN's inclusive Halloween fest in the morning, then Sea Scare at Cabrillo at night. Sunday: free puppets in Los Feliz or homemade pumpkin racers down MB Blvd. Torrance Unified has no school Friday, Oct 16 \u2014 Friday Fun at Madrona Marsh or a free-to-enter pumpkin patch on Prairie are easy wins. We left parking, food, and prices blank unless an official page confirmed them.",
-  "last_checked_at": "2026-10-14T07:30:00-07:00",
+  "last_checked_at": "2026-10-14T06:55:00-07:00",
   "picks": [
     {
       "name": "Mr. Jack O' Lanterns Pumpkin Patch \u2013 Torrance",
@@ -19,7 +19,14 @@
       "why": "Free-to-enter patch with a petting zoo, bounce house, pumpkin bowling, and pumpkin smash \u2014 easy no-school Friday close to home.",
       "starts_at": "2026-10-16T00:00:00-07:00",
       "ends_at": null,
-      "time_tbd": true
+      "time_tbd": true,
+      "id": "evt_3f20abe25de59e18",
+      "venue_name": "Mr. Jack O' Lanterns Pumpkins",
+      "street_address": "17520 Prairie Ave",
+      "price_text": null,
+      "image_url": null,
+      "status": "scheduled",
+      "verified": true
     },
     {
       "name": "RPV Trunk or Treat",
@@ -34,7 +41,16 @@
       "parking": "Civic Center parking plus additional free parking and a shuttle from Point Vicente Interpretive Center, 31501 Palos Verdes Dr. West (official flyer).",
       "food": "Food vendors on site (official flyer). Prices not listed.",
       "why": "City trunk-or-treat with inflatables, a puppet show, and a costume parade \u2014 an easy daytime Halloween.",
-      "id": "evt_7fd96a927fb12c0b"
+      "id": "evt_7fd96a927fb12c0b",
+      "starts_at": "2026-10-17T11:00:00-07:00",
+      "ends_at": "2026-10-17T14:00:00-07:00",
+      "time_tbd": false,
+      "venue_name": "Ken Dyda Civic Center",
+      "street_address": "30940 Hawthorne Blvd",
+      "price_text": null,
+      "image_url": null,
+      "status": "scheduled",
+      "verified": true
     },
     {
       "name": "ICAN Inclusive Halloween Festival",
@@ -49,7 +65,16 @@
       "parking": "The official page does not list parking.",
       "food": "Food for purchase on site (official). Prices not listed.",
       "why": "Free, welcoming Halloween fest with a bubble show, magic shows, and a costume contest \u2014 built so every kid can join in.",
-      "id": "evt_98e0dd0c6c2940ad"
+      "id": "evt_98e0dd0c6c2940ad",
+      "starts_at": "2026-10-17T11:00:00-07:00",
+      "ends_at": "2026-10-17T15:00:00-07:00",
+      "time_tbd": false,
+      "venue_name": "SCROC Torrance",
+      "street_address": "2300 Crenshaw Blvd.",
+      "price_text": null,
+      "image_url": null,
+      "status": "scheduled",
+      "verified": true
     },
     {
       "name": "Sea Scare! Monsters of Myth",
@@ -65,7 +90,15 @@
       "food": "Food trucks from 5:00 p.m. (official). Prices not listed.",
       "why": "One-night aquarium Halloween: trick-or-treat, family haunted house, DJ, costume contest. Buy tickets before Saturday.",
       "id": "evt_a68129cd44171c2c",
-      "price_text": "Pre-sale non-members $18 adults, $12 kids"
+      "price_text": "Pre-sale non-members $18 adults, $12 kids",
+      "starts_at": "2026-10-17T19:00:00-07:00",
+      "ends_at": "2026-10-17T22:00:00-07:00",
+      "time_tbd": false,
+      "venue_name": "Cabrillo Marine Aquarium",
+      "street_address": "3720 Stephen M. White Drive",
+      "image_url": null,
+      "status": "scheduled",
+      "verified": true
     },
     {
       "name": "Puppets in the Park at Hollyhock House",
@@ -80,7 +113,17 @@
       "parking": "The event page does not list parking.",
       "food": "Not a food event. Bring a blanket (official).",
       "why": "Free Bob Baker Hallowe'en Spooktacular puppet show on the lawn, plus art activities \u2014 about 40\u201350 minutes from Torrance.",
-      "age_gate": "All ages; lawn capacity is limited and pets aren't permitted"
+      "age_gate": "All ages; lawn capacity is limited and pets aren't permitted",
+      "starts_at": "2026-10-18T09:30:00-07:00",
+      "ends_at": "2026-10-18T12:30:00-07:00",
+      "time_tbd": false,
+      "id": "evt_b15375b7b96c632b",
+      "venue_name": "Hollyhock House",
+      "street_address": "4800 Hollywood Blvd",
+      "price_text": null,
+      "image_url": null,
+      "status": "scheduled",
+      "verified": true
     },
     {
       "name": "Manhattan Beach World Famous Pumpkin Race",
@@ -96,7 +139,16 @@
       "food": "Downtown Manhattan Beach restaurants. Festival food not listed on the city page.",
       "why": "Homemade pumpkin racers flying down MB Blvd toward the pier \u2014 free to watch, $35 kit if your kids want to race.",
       "id": "evt_0539695b71c7676d",
-      "description": "Free pumpkin race festival at the Manhattan Beach Pier; races at 2:00 p.m. Optional official racer kits $35 ($40 day-of)."
+      "description": "Free pumpkin race festival at the Manhattan Beach Pier; races at 2:00 p.m. Optional official racer kits $35 ($40 day-of).",
+      "starts_at": "2026-10-18T12:00:00-07:00",
+      "ends_at": null,
+      "time_tbd": false,
+      "venue_name": "Manhattan Beach Pier",
+      "street_address": null,
+      "price_text": null,
+      "image_url": null,
+      "status": "scheduled",
+      "verified": true
     },
     {
       "name": "Torrance Halloween Movie in the Park",
@@ -110,7 +162,17 @@
       "cost_math": "2 adults + 2 kids: free community event (City of Torrance). Costume parade, kids zone, DJ, pumpkin-carving display before the movie. Food vendors paid.",
       "parking": "Wilson Park lots. The official pages do not list a fee.",
       "food": "Food vendors from the Torrance Certified Farmers Market (Discover Torrance). Prices not listed. Bring blankets and low-back chairs.",
-      "why": "Free costume parade and Toy Story 5 under the stars at Wilson Park \u2014 the easiest Halloween night out in Torrance."
+      "why": "Free costume parade and Toy Story 5 under the stars at Wilson Park \u2014 the easiest Halloween night out in Torrance.",
+      "starts_at": "2026-10-24T16:00:00-07:00",
+      "ends_at": null,
+      "time_tbd": false,
+      "id": "evt_d1b68a8e022f09e4",
+      "venue_name": "Wilson Park",
+      "street_address": "2200 Crenshaw Blvd",
+      "price_text": null,
+      "image_url": null,
+      "status": "scheduled",
+      "verified": true
     },
     {
       "name": "San Pedro D\u00eda de los Muertos Festival",
@@ -124,7 +186,17 @@
       "cost_math": "Free, family-friendly festival (official). Food and vendor purchases extra. Downtown parking cost not listed on the event page.",
       "parking": "The event page does not list parking. Expect downtown street and lot parking.",
       "food": "Food vendors on site (official). Prices not listed.",
-      "why": "Altars, Aztec and folkl\u00f3rico dancers, and a Catrina contest \u2014 a big free cultural festival 20 minutes from Torrance."
+      "why": "Altars, Aztec and folkl\u00f3rico dancers, and a Catrina contest \u2014 a big free cultural festival 20 minutes from Torrance.",
+      "starts_at": "2026-10-25T15:00:00-07:00",
+      "ends_at": "2026-10-25T21:30:00-07:00",
+      "time_tbd": false,
+      "id": "evt_35590cf9e7b78644",
+      "venue_name": "Downtown San Pedro",
+      "street_address": "396 W 6th St",
+      "price_text": null,
+      "image_url": null,
+      "status": "scheduled",
+      "verified": true
     },
     {
       "name": "Riviera Village Halloween Trick or Treat",
@@ -139,7 +211,16 @@
       "parking": "Triangle lot between Avenida Del Norte and S. Elena, street spots, cashless paid parking at Plaza Riviera (1611 S Catalina Ave), and a paid lot at Mira Mar Park (201 Paseo de la Playa). Rates not listed.",
       "food": "Village restaurants; stay for dinner (official). No event food listed.",
       "why": "Halloween afternoon on a car-free Catalina Ave \u2014 the South Bay's big street trick-or-treat. Go early; candy runs out at 6.",
-      "id": "evt_1b078e3888f3f148"
+      "id": "evt_1b078e3888f3f148",
+      "starts_at": "2026-10-31T15:00:00-07:00",
+      "ends_at": "2026-10-31T20:00:00-07:00",
+      "time_tbd": false,
+      "venue_name": "Riviera Village",
+      "street_address": null,
+      "price_text": null,
+      "image_url": null,
+      "status": "scheduled",
+      "verified": true
     },
     {
       "name": "Friday Fun at Madrona Marsh",
@@ -154,7 +235,17 @@
       "parking": "Nature Center lot. The official page does not list a fee.",
       "food": "The official page does not list food.",
       "why": "Preschool story, science, art, and a marsh tour \u2014 on the no-school Friday.",
-      "age_gate": "Ages 3\u20136 + parent/guardian"
+      "age_gate": "Ages 3\u20136 + parent/guardian",
+      "starts_at": "2026-10-16T10:00:00-07:00",
+      "ends_at": "2026-10-16T12:00:00-07:00",
+      "time_tbd": false,
+      "id": "evt_48c90563516705d7",
+      "venue_name": "Madrona Marsh Nature Center",
+      "street_address": "3201 Plaza del Amo",
+      "price_text": null,
+      "image_url": null,
+      "status": "scheduled",
+      "verified": true
     },
     {
       "name": "Wilson Park Train Rides (Southern California Live Steamers)",
@@ -169,7 +260,17 @@
       "parking": "The official club site does not list parking.",
       "food": "Not a food event.",
       "why": "Volunteer-run miniature trains, 15\u201325 minutes a loop \u2014 a classic Torrance Saturday.",
-      "age_gate": "Riders must be 32\" tall and walk on their own; no infants; kids ride with an adult"
+      "age_gate": "Riders must be 32\" tall and walk on their own; no infants; kids ride with an adult",
+      "starts_at": "2026-10-17T12:00:00-07:00",
+      "ends_at": "2026-10-17T15:00:00-07:00",
+      "time_tbd": false,
+      "id": "evt_b0d0d942b63b26b1",
+      "venue_name": "Wilson Park (Southern California Live Steamers)",
+      "street_address": "2200 Crenshaw Blvd",
+      "price_text": null,
+      "image_url": null,
+      "status": "scheduled",
+      "verified": true
     },
     {
       "name": "The Point Kids Club: Halloween Trick-or-Treat",
@@ -184,7 +285,16 @@
       "parking": "The Point's lots. The event page does not list a fee.",
       "food": "Shopping-center restaurants; a few one-day deals listed (official).",
       "why": "Weekday-morning trick-or-treat for little ones with music, balloons, and strolling characters.",
-      "id": "evt_ca910074e0861978"
+      "id": "evt_ca910074e0861978",
+      "starts_at": "2026-10-21T10:00:00-07:00",
+      "ends_at": "2026-10-21T12:00:00-07:00",
+      "time_tbd": false,
+      "venue_name": "The Point",
+      "street_address": "850 S. Pacific Coast Highway",
+      "price_text": null,
+      "image_url": null,
+      "status": "scheduled",
+      "verified": true
     }
   ]
 }
