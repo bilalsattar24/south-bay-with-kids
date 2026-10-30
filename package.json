@@ -9,6 +9,7 @@
     "lint": "eslint",
     "test": "vitest run",
     "events:backfill": "tsx scripts/backfill-events.ts",
+    "publish:verify": "tsx scripts/report-published.ts",
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
