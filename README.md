@@ -164,4 +164,6 @@ Each pick in `content/issues/*.json` is one event occurrence. The API reads opti
 
 **Adding a new issue.** After writing `content/issues/<slug>.json`, run `npm run events:backfill` and review the diff. It only fills in missing keys, never overwrites. If any served pick lacks a stored id, `npm test` fails. Set `verified`, `price_text`, `image_url` and `status: "cancelled"` directly in the JSON when known.
 
+The site page does not exist until a production deploy finishes. Do not report the letter as published because the email sent. After deploy, run `npm run publish:verify -- --email-sent https://www.southbaywithkids.com/issues/<slug>`. It prints `published: <url> HTTP 200` only when that URL returns 200, and exits 1 otherwise.
+
 The issue JSON is bundled with the deployment (`outputFileTracingIncludes` in `next.config.ts`) and parsed once per server instance. A default-week request does no I/O, typically a few milliseconds.

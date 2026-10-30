@@ -24,6 +24,16 @@ Each pick needs `name`, `url` (official page only), `section`, and `family_of_4_
 
 The Events API (`/api/v1/events`) reads these optional fields. The public pages ignore them. A missing key means "derive it from the free text"; an explicit `null` means "known to be unknown, don't derive". After adding an issue, run `npm run events:backfill`: it fills only missing keys, then you review the diff.
 
+## Publishing
+
+Issue pages are baked in at build time. A letter run may report `published` only after the live issue URL returns HTTP 200:
+
+```bash
+npm run publish:verify -- --email-sent https://www.southbaywithkids.com/issues/<slug>
+```
+
+`--email-sent` records that the newsletter went out. It does not skip the check. A non-200, or a failed fetch, exits 1 and does not print `published`. The success line is `published: <url> HTTP 200`.
+
 Issue level:
 
 - `last_checked_at`: ISO 8601 with offset; when this issue's events were last fact-checked. The backfill uses the issue file's last git commit time.
@@ -45,3 +55,13 @@ Per pick:
 | `status` | `scheduled` \| `cancelled` | Mark cancellations here instead of deleting the pick. |
 | `verified` | boolean | `true` only when details were confirmed on an official page. |
 | `last_checked_at` | ISO 8601 with offset | Per-pick override of the issue-level value. |
+
+## Publishing
+
+Issue pages are baked in at build time. A letter run may report `published` only after the live issue URL returns HTTP 200:
+
+```bash
+npm run publish:verify -- --email-sent https://www.southbaywithkids.com/issues/<slug>
+```
+
+`--email-sent` records that the newsletter went out. It does not skip the check. A non-200, or a failed fetch, exits 1 and does not print `published`. The success line is `published: <url> HTTP 200`.
