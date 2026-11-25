@@ -1,6 +1,6 @@
 # South Bay with Kids
 
-Friday finds for parents in the South Bay (Torrance and nearby, plus outings within about an hour).
+Wednesday finds for parents in the South Bay (Torrance and nearby, plus outings within about an hour).
 
 ## Local
 

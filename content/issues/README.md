@@ -1,6 +1,6 @@
 # Issues
 
-Friday letters live here as JSON. The homepage, `/archive`, and `/issues/[slug]` read this folder. Markdown files (including this README) are not issues.
+Wednesday letters live here as JSON. The homepage, `/archive`, and `/issues/[slug]` read this folder. Markdown files (including this README) are not issues.
 
 Filename:
 
