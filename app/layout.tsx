@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     template: "%s · South Bay with Kids",
   },
   description:
-    "Friday finds for parents in the South Bay (Torrance and nearby, plus outings within about an hour).",
+    "Wednesday finds for parents in the South Bay (Torrance and nearby, plus outings within about an hour).",
 };
 
 export default function RootLayout({

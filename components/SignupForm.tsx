@@ -38,7 +38,7 @@ export function SignupForm() {
           href={BEEHIIV_SUBSCRIBE_URL}
           className="inline-flex h-12 items-center justify-center rounded-xl bg-clay px-5 text-base font-medium text-white hover:bg-clay-deep focus:outline-none focus:ring-2 focus:ring-clay/40 focus:ring-offset-2 focus:ring-offset-paper"
         >
-          Get the Friday letter
+          Get the Wednesday letter
         </a>
       </noscript>
     </div>

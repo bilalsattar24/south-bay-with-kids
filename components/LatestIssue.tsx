@@ -56,7 +56,7 @@ export function LatestIssue() {
       ) : (
         <div className="mt-6 rounded-2xl border border-dashed border-line px-5 py-8">
           <p className="font-display text-2xl text-ink">
-            First issue lands Friday
+            First issue lands Wednesday
           </p>
           <p className="mt-2 text-ink-soft">
             Nothing to archive yet. Here is the shape of a letter, empty on

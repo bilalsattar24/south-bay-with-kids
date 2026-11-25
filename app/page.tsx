@@ -17,13 +17,13 @@ export default function HomePage() {
 
         <div className="relative mx-auto max-w-2xl px-5 pb-16 pt-12 sm:px-6 sm:pb-20 sm:pt-16">
           <p className="text-sm font-medium tracking-wide text-clay">
-            A free Friday letter
+            A free Wednesday letter
           </p>
           <h1 className="mt-3 font-display text-4xl leading-[1.1] tracking-tight text-ink sm:text-5xl">
             South Bay with Kids
           </h1>
           <p className="mt-4 max-w-xl text-lg leading-relaxed text-ink-soft sm:text-xl">
-            Friday finds for parents in the South Bay (Torrance and nearby, plus
+            Wednesday finds for parents in the South Bay (Torrance and nearby, plus
             outings within about an hour).
           </p>
           <div className="mt-8">

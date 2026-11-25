@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "About",
   description:
-    "A free Friday letter for parents in the South Bay and nearby — local finds, plus the occasional outing worth the drive.",
+    "A free Wednesday letter for parents in the South Bay and nearby — local finds, plus the occasional outing worth the drive.",
 };
 
 export default function AboutPage() {
@@ -15,13 +15,13 @@ export default function AboutPage() {
       </h1>
       <div className="mt-8 space-y-5 text-lg leading-relaxed text-ink-soft">
         <p>
-          South Bay with Kids is a local parent newsletter — the kind of Friday
-          note you want after a long week, not another feed to scroll. It is
+          South Bay with Kids is a local parent newsletter — the kind of Wednesday
+          note you want before the weekend, not another feed to scroll. It is
           written for families in Torrance and the nearby South Bay, with the
           occasional outing that is worth about an hour in the car.
         </p>
         <p>
-          It is free. It lands on Fridays. This site is the front porch: a
+          It is free. It lands Wednesday mornings. This site is the front porch: a
           place to read the letter, look back through past issues, and sign
           up when you are ready.
         </p>
